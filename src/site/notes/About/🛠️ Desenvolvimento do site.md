@@ -30,6 +30,7 @@ Algumas funcionalidades começaram como pequenos experimentos e acabaram se torn
 - Modo **Portfólio**;
   - Botão e alternância de modo;
   - Páginas envolvidas;
+- Moedas sociais interativas (links de perfil em 3D);
 
 ### 🟡 Em desenvolvimento
 
@@ -52,6 +53,12 @@ O site utiliza principalmente:
 - HTML, CSS e JavaScript para as personalizações e funcionalidades próprias do site.
 
 Grande parte da interface foi modificada ou construída para que o site pudesse deixar de parecer apenas uma instalação padrão do Digital Garden.
+
+## 🪙 Moedas sociais
+
+Os links de perfil da mini-bio usam um componente próprio de "moedas": cada moeda mostra o avatar (ilustração **Nyxa**) da plataforma na frente e o ícone/monograma da plataforma no verso, virando em 3D ao passar o mouse, ao focar pelo teclado ou ao tocar na tela. As moedas são organizadas em dois grupos: **Jogos** e **Redes sociais**.
+
+Os perfis ficam em `src/helpers/socialProfiles.js`. Os avatares e ícones são assets locais em `src/site/img/social/`, então o site não depende dos sites das plataformas em tempo de execução. Para atualizar os avatares, rode `npm run fetch-social-assets`. Os avatares de **Last.fm**, **Stash Games** e **LinkedIn** são adicionados manualmente na pasta de avatares (as plataformas bloqueiam o download automático).
 
 ## 📜 Créditos
 
@@ -102,6 +109,7 @@ Some features started as small experiments and eventually became important parts
 - **Portfolio** mode;
   - Mode switch and toggle;
   - Related pages;
+- Interactive social coins (3D profile links);
 
 ### 🟡 In development
 
@@ -124,6 +132,12 @@ The site mainly uses:
 - HTML, CSS, and JavaScript for the site's customizations and features.
 
 A large part of the interface has been modified or built specifically so the site could become more than just a standard Digital Garden installation.
+
+## 🪙 Social coins
+
+The Mini-bio profile links use a custom "coin" component: each coin shows the platform's (**Nyxa** illustration) avatar on the front and the platform icon/monogram on the back, flipping in 3D on hover, keyboard focus, or tap. The coins are organized into two groups: **Games** and **Socials**.
+
+Profiles live in `src/helpers/socialProfiles.js`. Avatars and icons are local assets under `src/site/img/social/`, so the site never depends on the platforms' websites at runtime. To refresh the avatars, run `npm run fetch-social-assets`. The **Last.fm**, **Stash Games**, and **LinkedIn** avatars are added manually to the avatars folder (those platforms block automated downloads).
 
 ## 📜 Credits
 

@@ -17,13 +17,7 @@ Claro, nem tudo por aqui envolve código. Gosto de **desenhar**, **jogar**, **de
 
 Se quiser acompanhar o que estou fazendo, estes são alguns dos lugares onde você pode me **encontrar**:
 
-- [LinkedIn](https://www.linkedin.com/in/marcelo-m-medeiros/)
-- [GitHub](https://github.com/MikeMequis)
-- [GitLab](https://gitlab.com/MikeMequis1)
----
-- [Stash](https://stash.games/users/HailsGamer)
-- [Steam](https://steamcommunity.com/id/MarseloII/)
-- [GOG](https://www.gog.com/u/MikeMequis1)
+:::social-coins
 
 Você também pode acompanhar o próprio **desenvolvimento** deste site no [repositório do Mike's Stash](https://github.com/MikeMequis/mikesstash).
 
@@ -38,7 +32,7 @@ Want to know more about the person behind the site? You're in the right place.
 
 ## Mini-bio
 
-My name is **Marcelo Medeiros**, although you will probably find me online as **Mike**, **MikeMequis** or **Hales**.
+My name is **Marcelo Medeiros**, although you will probably find me online as **Mike** or **MikeMequis**.
 
 I'm a **Computer Engineer** and I enjoy exploring different areas of technology, programming, games, art, and everything that catches my curiosity — which explains the variety of things you can find around here. On the professional side, my experience mainly involves development with **C#/.NET**, along with other technologies and tools that show up in my personal projects.
 
@@ -46,13 +40,7 @@ Of course, not everything here is about code. I also enjoy **drawing**, playing 
 
 If you want to keep up with what I'm doing, you can **find** me in a few places:
 
-- [LinkedIn](https://www.linkedin.com/in/marcelo-m-medeiros/)
-- [GitHub](https://github.com/MikeMequis)
-- [GitLab](https://gitlab.com/MikeMequis1)
----
-- [Stash](https://stash.games/users/HailsGamer)
-- [Steam](https://steamcommunity.com/id/MarseloII/)
-- [GOG](https://www.gog.com/u/MikeMequis1)  
+:::social-coins
 
 And, of course, you can also follow the **development** of this website through the [Mike's Stash repository](https://github.com/MikeMequis/mikesstash).
 
