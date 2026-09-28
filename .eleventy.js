@@ -8,10 +8,16 @@ const genFaviconHtml = require("eleventy-plugin-gen-favicons/html-gen");
 const normalizeFavicon = require("./src/site/normalize-favicon.js");
 const { convertMdHrefs } = require("./src/helpers/linkUtils");
 const nodePath = require("path");
+const { globSync } = require("glob");
 
-const FAVICON_SOURCE = "./src/site/favicon.svg";
-const FAVICON_NORMALIZED = "./.cache/favicon.normalized.svg";
-normalizeFavicon(FAVICON_SOURCE, FAVICON_NORMALIZED);
+// Accept any favicon raster/vector dropped into src/site as `favicon.*`, so
+// swapping the artwork's format doesn't require editing this file.
+const FAVICON_CANDIDATES = globSync("src/site/favicon.{png,jpg,jpeg,webp,gif,svg}");
+const FAVICON_SOURCE = FAVICON_CANDIDATES[0] ? `./${FAVICON_CANDIDATES[0]}` : "./src/site/favicon.png";
+const FAVICON_IS_SVG = FAVICON_SOURCE.toLowerCase().endsWith(".svg");
+const FAVICON_NORMALIZED = FAVICON_IS_SVG
+  ? "./.cache/favicon.normalized.svg"
+  : "./.cache/favicon.normalized.png";
 
 // The favicons shortcode is expanded once per page. Generating the icons on
 // every expansion writes the same destination files concurrently (Eleventy
@@ -855,8 +861,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/styles/fonts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
   eleventyConfig.addPassthroughCopy({ "src/site/logo.*": "/" });
-  eleventyConfig.on("eleventy.before", () => {
-    normalizeFavicon(FAVICON_SOURCE, FAVICON_NORMALIZED);
+  eleventyConfig.on("eleventy.before", async () => {
+    await normalizeFavicon(FAVICON_SOURCE, FAVICON_NORMALIZED);
     faviconsHtmlPromise = null;
     anchorAttributesCache.clear();
   });
@@ -877,7 +883,7 @@ module.exports = function(eleventyConfig) {
         { manifestData: {}, generateManifest: true, skipCache: false },
         opts
       );
-      faviconsHtmlPromise = genFavicons(sourceFile, "dist", faviconOpts).then(
+      faviconsHtmlPromise = genFavicons(FAVICON_NORMALIZED, "dist", faviconOpts).then(
         genFaviconHtml
       );
     }
