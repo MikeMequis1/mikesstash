@@ -29,7 +29,7 @@ The first version was not only **tightly coupled** to its user interface and int
 
 ## How much of Asher is AI-assisted?
 
-**Development is heavily AI-assisted**, primarily through **OpenCode**, and I'm open about that. Asher is a solo project, and AI is involved in a lot of the work: writing and refactoring C# code, investigating the game's behavior, working through unfamiliar parts of the codebase, testing ideas, debugging, and writing documentation.
+**Development is heavily AI-assisted**, primarily through **OpenCode**, and I'm open about that. Asher is a solo project, and AI is involved in a lot of the work: refactoring C# code, working through unfamiliar parts of the codebase, testing ideas, debugging, and writing documentation.
 
 That doesn't mean the project is generated from a single prompt or that every change follows the same process. OpenCode sometimes writes a larger piece of code that I review and modify. I often use it to investigate a problem and structure the core of a new feature before writing the implementation myself. That also includes exploring new tools and technologies that I discover during the development of the project.
 
@@ -39,15 +39,21 @@ Asher covers a lot of ground for a solo project: C# and different .NET runtimes,
 
 ## Does AI make the project's decisions? In other words, is this project lazily vibe-coded?
 
-**No**. OpenCode suggests different approaches, explains problems, or implements changes, but its output is not always considered the most appropriate solution. I often choose the simplest or clearest approach, and decide what belongs in Asher and what should be kept, changed, or removed. When something affects the game, it is checked against Dust's actual behavior. This project is not only an environment for experimentation, but also an opportunity to find new tools and expand the modding possibilities for Dust. That explains the constant transitions between UI-related technologies and cross-platform approaches.
-
-What started as a simple user interface mod manager for patches from [DustAetPatchingPlatform](https://github.com/GMMan/DustAetPatchingPlatform) turned into a new platform for both users and developers.
+**No**. OpenCode suggests different approaches, explains problems, or implements changes, but its output is not always considered the most appropriate solution. I often choose the simplest or clearest approach, and decide what belongs in Asher and what should be kept, changed, or removed. When something affects the game, it is checked against Dust's actual behavior. 
 
 ## Are there downsides to using AI?
 
 **Yes**. AI can over-engineer a simple change, introduce abstractions that are not really needed, duplicate documentation, or make core changes that turn out to be wrong. Generated code can also work correctly while still being harder to understand or maintain than it needs to be. Using AI means spending time checking what it produces, simplifying things when necessary, and making sure the project still makes sense as a whole.
 
 The goal is not to have AI write as much code as possible; it's to use it to make a difficult solo project more feasible while keeping the architecture and direction under human control.
+
+### Will the project ever be fully completed?
+
+There is no defined date for the project to be considered completely finished. Asher is an environment for experimentation and a personal opportunity to explore new tools and expand the modding possibilities for Dust. This naturally leads to changes in technologies, approaches, and priorities throughout its development.
+
+What started as a project without a graphical interface, with manual and improvised mod management, support limited to the Windows version of the game, and no clear installation or usage process, has gradually evolved into a practical tool for modders, with a user-friendly experience and a stronger focus on User Experience. The goal was to make the existing patches from [DustAetPatchingPlatform](https://github.com/GMMan/DustAetPatchingPlatform) more accessible. Over time, however, Asher grew into a broader platform for both users and developers, providing a structured foundation for installing, managing, and developing mods.
+
+You can keep up with the project's current progress and future plans in the [[Asher/📊 Status & Roadmap\|📊 Status & Roadmap]] section.
 
 ---
 
@@ -82,7 +88,7 @@ A primeira versão não somente era **fortemente acoplada** à interface e ao mo
 
 ## Quanto do Asher é assistido por IA?
 
-**O desenvolvimento é fortemente assistido por IA**, principalmente através do **OpenCode**, e faço questão de ser transparente sobre isso. O Asher é um projeto solo, e a IA participa de boa parte do trabalho: escrever e refatorar código C#, investigar o comportamento do jogo, trabalhar em partes desconhecidas do código, testar ideias, depurar problemas e escrever documentação.
+**O desenvolvimento é fortemente assistido por IA**, principalmente através do **OpenCode**, e faço questão de ser transparente sobre isso. O Asher é um projeto solo, e a IA participa de boa parte do trabalho: refatorar código C#, trabalhar em partes desconhecidas do código, testar ideias, depurar problemas e escrever documentação.
 
 Isso não significa que o projeto seja gerado a partir de um único prompt ou que toda mudança siga o mesmo processo. Às vezes o OpenCode escreve uma parte maior do código que eu reviso e modifico. Costumo usar a IA para investigar um problema e estruturar o núcleo de uma nova funcionalidade antes de escrever a implementação por conta própria. Isso também inclui explorar novas ferramentas e tecnologias que descubro durante o desenvolvimento do projeto.
 
@@ -92,15 +98,21 @@ O Asher cobre bastante coisa para um projeto solo: C# e diferentes runtimes do .
 
 ## A IA toma as decisões do projeto? Em outras palavras, este projeto foi feito só no "vibe coding" mal feito?
 
-**Não**. O OpenCode sugere diferentes abordagens, explica problemas ou implementa mudanças, mas seu resultado nem sempre é considerado a solução mais adequada. Frequentemente escolho a abordagem mais simples ou clara e decido o que pertence ao Asher e o que deve ser mantido, alterado ou removido. Quando algo afeta o jogo, isso é verificado em relação ao comportamento real do Dust. Este projeto não é apenas um ambiente para experimentação, mas uma oportunidade para encontrar novas ferramentas e ampliar as possibilidades de modding do Dust. Isso explica as constantes transições entre tecnologias relacionadas à interface e abordagens multiplataforma.
-
-O que começou como um simples gerenciador de mods com interface gráfica para os patches do [DustAetPatchingPlatform](https://github.com/GMMan/DustAetPatchingPlatform) acabou se tornando uma nova plataforma para usuários e desenvolvedores.
+**Não**. O OpenCode sugere diferentes abordagens, explica problemas ou implementa mudanças, mas seu resultado nem sempre é considerado a solução mais adequada. Frequentemente escolho a abordagem mais simples ou clara e decido o que pertence ao Asher e o que deve ser mantido, alterado ou removido. Quando algo afeta o jogo, isso é verificado em relação ao comportamento real do Dust. 
 
 ## Existem desvantagens em usar IA?
 
 **Sim**. A IA pode complicar demais uma mudança simples, introduzir abstrações que não são realmente necessárias, duplicar documentação ou fazer alterações importantes que acabam se mostrando incorretas. O código gerado também pode funcionar corretamente e, ainda assim, ser mais difícil de entender ou manter do que deveria. Usar IA significa dedicar tempo para verificar o que ela produz, simplificar as coisas quando necessário e garantir que o projeto continue fazendo sentido como um todo.
 
 O objetivo não é fazer a IA escrever o máximo de código possível; é usá-la para tornar um projeto solo difícil mais viável, mantendo a arquitetura e a direção sob controle humano.
+
+### O projeto algum dia será totalmente finalizado?
+
+Não existe uma data definida para considerar o projeto completamente finalizado. O Asher é um ambiente de experimentação e uma oportunidade pessoal para explorar novas ferramentas e ampliar as possibilidades de *modding* ao Dust. Isso naturalmente resulta em mudanças de tecnologias, abordagens e prioridades ao longo do desenvolvimento.
+
+O que começou como um projeto sem interface visual, com gerenciamento manual e improvisado de modificações, suporte limitado à versão de Windows e sem um processo claro de instalação ou utilização, gradualmente se tornou uma ferramenta prática para *modders*, com uma experiência mais amigável para o usuário e um foco maior em *User Experience*. O objetivo era tornar os patches existentes do [DustAetPatchingPlatform](https://github.com/GMMan/DustAetPatchingPlatform) mais acessíveis aos usuários. Com o tempo, porém, o Asher se tornou uma plataforma mais ampla para usuários e desenvolvedores, oferecendo uma base estruturada para instalar, gerenciar e desenvolver *mods*.
+
+Você pode acompanhar o andamento atual e os planejamentos futuros do projeto na seção [[Asher/📊 Status & Roadmap\|📊 Status & Roadmap]].
 
 ---
 

@@ -71,7 +71,7 @@ Progress operations (`install`, `uninstall`) stream `progress` events over stdou
 
 OS-specific work is isolated behind small contracts (`IGameFolderDiscovery`, `IGameExecutableLayout`, `IRuntimeDeployment`, `IGameProcessLauncher`); `GameInstallationService` stays shared across Windows and Linux.
 
-In-game stack (separate process): Windows — `DustAET.exe` (= Asher.Launcher) → Asher.Runtime → Asher.Patching.*; Linux — native `DustAET` → `libasher_bootstrap.so` (`LD_PRELOAD`) → Asher.Runtime → Asher.Patching.*.
+In-game stack (separate process): Windows — `DustAET.exe` (= Asher.Launcher) → Asher.Runtime → Asher.Patching.*; Linux — native `DustAET` → `libasher_bootstrap.so` (`LD_PRELOAD`) → Asher.Runtime → Asher.Patching.*
 
 ---
 [[🐱 Asher\|< Back]]
@@ -148,7 +148,7 @@ Operações com progresso (`install`, `uninstall`) enviam eventos `progress` pel
 
 O trabalho específico de SO fica isolado atrás de contratos pequenos (`IGameFolderDiscovery`, `IGameExecutableLayout`, `IRuntimeDeployment`, `IGameProcessLauncher`); o `GameInstallationService` permanece compartilhado entre Windows e Linux.
 
-Stack in-game (processo separado): Windows — `DustAET.exe` (= Asher.Launcher) → Asher.Runtime → Asher.Patching.*; Linux — `DustAET` nativo → `libasher_bootstrap.so` (`LD_PRELOAD`) → Asher.Runtime → Asher.Patching.*.
+Stack in-game (processo separado): Windows — `DustAET.exe` (= Asher.Launcher) → Asher.Runtime → Asher.Patching.*; Linux — `DustAET` nativo → `libasher_bootstrap.so` (`LD_PRELOAD`) → Asher.Runtime → Asher.Patching.*
 
 [[🐱 Asher\|< Voltar]]
 

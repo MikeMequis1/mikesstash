@@ -64,14 +64,14 @@ Explore and have fun!
 
 :::lang pt
 
-*Última atualização em 21 de Agosto de 2026*
+*Última atualização em 27 de Setembro de 2026*
 [[🏡 Home Page\|< Voltar]]
 
 :::
 
 :::lang en
 
-*Last updated in August 21th, 2026*
+*Last updated in September 27th, 2026*
 [[🏡 Home Page\|< Back]]
 
 :::
