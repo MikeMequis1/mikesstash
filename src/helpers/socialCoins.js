@@ -22,6 +22,10 @@ const path = require("path");
 const { PROFILES, GROUPS } = require("./socialProfiles");
 
 const MARKER = ":::social-coins";
+const MARKER_PORTFOLIO = ":::social-coins-portfolio";
+// The portfolio variant renders only these profiles, in this order, with no
+// group headings (see src/site/notes/Portfolio/Mini-bio.md).
+const PORTFOLIO_IDS = ["linkedin", "github"];
 
 function escapeHtml(value) {
   return String(value)
@@ -94,18 +98,29 @@ function renderGroupTitle(title) {
   )}</span><span class="dg-lang" data-lang="en">${escapeHtml(title.en)}</span></p>`;
 }
 
+function renderCoinList(profiles, avatarExists) {
+  const items = profiles
+    .map((profile) => renderCoin(profile, avatarExists))
+    .join("\n");
+  return `<ul class="social-coins">\n${items}\n</ul>`;
+}
+
 function renderSocialCoins(profiles = PROFILES, options = {}) {
   const avatarExists = options.avatarExists || defaultAvatarExists;
-  const groups = options.groups || GROUPS;
+  const groups = options.groups === undefined ? GROUPS : options.groups;
+
+  // Flat variant: a single group-less row (e.g. the portfolio Mini-bio).
+  if (!groups) {
+    return `${renderCoinList(profiles, avatarExists)}\n`;
+  }
 
   const sections = groups
     .map((group) => {
       const members = profiles.filter((profile) => profile.group === group.id);
       if (members.length === 0) return null;
-      const items = members.map((profile) => renderCoin(profile, avatarExists)).join("\n");
       return `<div class="social-coins-group">\n  ${renderGroupTitle(
         group.title
-      )}\n  <ul class="social-coins">\n${items}\n  </ul>\n</div>`;
+      )}\n  ${renderCoinList(members, avatarExists)}\n</div>`;
     })
     .filter(Boolean)
     .join("\n");
@@ -119,12 +134,16 @@ function socialCoinsPlugin(md) {
     const max = state.eMarks[startLine];
     const lineText = state.src.slice(pos, max).trim();
 
-    if (lineText !== MARKER) return false;
+    let variant;
+    if (lineText === MARKER) variant = "default";
+    else if (lineText === MARKER_PORTFOLIO) variant = "portfolio";
+    else return false;
     if (silent) return true;
 
     const token = state.push("social_coins", "", 0);
     token.block = true;
     token.map = [startLine, startLine + 1];
+    token.meta = { variant };
 
     state.line = startLine + 1;
     return true;
@@ -134,7 +153,22 @@ function socialCoinsPlugin(md) {
     alt: ["paragraph", "reference", "blockquote", "list"],
   });
 
-  md.renderer.rules.social_coins = () => renderSocialCoins(PROFILES);
+  md.renderer.rules.social_coins = (tokens, idx) => {
+    const variant = tokens[idx].meta && tokens[idx].meta.variant;
+    if (variant === "portfolio") {
+      const profiles = PORTFOLIO_IDS.map((id) =>
+        PROFILES.find((profile) => profile.id === id)
+      ).filter(Boolean);
+      return renderSocialCoins(profiles, { groups: null });
+    }
+    return renderSocialCoins(PROFILES);
+  };
 }
 
-module.exports = { socialCoinsPlugin, renderSocialCoins, MARKER };
+module.exports = {
+  socialCoinsPlugin,
+  renderSocialCoins,
+  MARKER,
+  MARKER_PORTFOLIO,
+  PORTFOLIO_IDS,
+};

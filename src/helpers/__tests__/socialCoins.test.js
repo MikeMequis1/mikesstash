@@ -164,6 +164,35 @@ describe("socialCoinsPlugin inside lang blocks", () => {
   });
 });
 
+describe("socialCoinsPlugin portfolio variant", () => {
+  function render(src) {
+    const md = markdownIt({ html: true })
+      .use(langPlugin)
+      .use(socialCoinsPlugin);
+    return md.render(src);
+  }
+
+  it("renders only LinkedIn and GitHub, without group headings", () => {
+    const html = render(":::social-coins-portfolio\n");
+    expect((html.match(/<ul class="social-coins">/g) || []).length).toBe(1);
+    expect((html.match(/class="social-coin"/g) || []).length).toBe(2);
+    expect(html).toContain(
+      'href="https://www.linkedin.com/in/marcelo-m-medeiros/"'
+    );
+    expect(html).toContain('href="https://github.com/MikeMequis1"');
+    expect(html).not.toContain("social-coins-group");
+    expect(html).not.toContain("social-coins__title");
+    expect(html).not.toContain("exophase");
+  });
+
+  it("orders LinkedIn before GitHub", () => {
+    const html = render(":::social-coins-portfolio\n");
+    expect(html.indexOf("linkedin.com")).toBeLessThan(
+      html.indexOf("github.com")
+    );
+  });
+});
+
 describe("Mini-bio content", () => {
   const content = fs.readFileSync(MINI_BIO, "utf8");
 
