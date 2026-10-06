@@ -883,6 +883,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("src/site/img");
+  eleventyConfig.addPassthroughCopy("src/site/pdf");
   eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/fonts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");

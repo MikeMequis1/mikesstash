@@ -214,6 +214,53 @@ a.view-toggle-btn {
     }
 }
 
+a.resume-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 176px;
+    z-index: 120;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    border: var(--terminal-border-dim);
+    border-radius: 0;
+    background: var(--theme-toggle-bg);
+    background-color: var(--theme-toggle-bg);
+    color: var(--theme-toggle-color);
+    cursor: pointer;
+    box-shadow: var(--theme-search-glow);
+    text-decoration: none;
+    user-select: none;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+    &:visited,
+    &:focus,
+    &:active {
+        color: var(--theme-toggle-color);
+        text-decoration: none;
+        background: var(--theme-toggle-bg);
+        background-color: var(--theme-toggle-bg);
+    }
+
+    &:hover,
+    &:hover:visited {
+        background: var(--theme-toggle-hover-bg);
+        background-color: var(--theme-toggle-hover-bg);
+        color: var(--theme-toggle-hover-color);
+        border-color: var(--theme-accent-bright);
+        text-decoration: none;
+    }
+
+    .resume-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
 .dg-lang[data-lang="en"] {
     display: none;
 }

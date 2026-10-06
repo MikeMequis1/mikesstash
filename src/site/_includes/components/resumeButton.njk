@@ -1,0 +1,44 @@
+{#
+  Floating "Download résumé" action. Rendered only in Portfolio mode
+  (portfolioContext is non-null) and swaps the PDF to the active language,
+  mirroring the view-toggle styling.
+#}
+{% if portfolioContext is not null %}
+<a
+  class="resume-btn"
+  id="resume-link"
+  href="/pdf/Resume_Marcelo_Medeiros_PT.pdf"
+  data-href-pt="/pdf/Resume_Marcelo_Medeiros_PT.pdf"
+  data-href-en="/pdf/Resume_Marcelo_Medeiros_EN.pdf"
+  data-label-pt="Baixar currículo"
+  data-label-en="Download résumé"
+  target="_blank"
+  rel="noopener"
+  aria-label="Baixar currículo"
+  title="Baixar currículo">
+  <i data-lucide="download" class="resume-icon" aria-hidden="true"></i>
+</a>
+<script>
+(function () {
+  function currentLang() {
+    return document.body.classList.contains("lang-en") ? "en" : "pt";
+  }
+
+  window.updateResumeLink = function (lang) {
+    var link = document.getElementById("resume-link");
+    if (!link) return;
+    var href = lang === "en" ? link.dataset.hrefEn : link.dataset.hrefPt;
+    if (href) link.setAttribute("href", href);
+    var label = lang === "en" ? link.dataset.labelEn : link.dataset.labelPt;
+    if (label) {
+      link.setAttribute("aria-label", label);
+      link.title = label;
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", function () {
+    window.updateResumeLink(currentLang());
+  });
+})();
+</script>
+{% endif %}
