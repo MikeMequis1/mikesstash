@@ -6,7 +6,7 @@
   data-giscus-light-theme="{{ meta.giscus.lightTheme }}"
   data-giscus-dark-theme="{{ meta.giscus.darkTheme }}"
   aria-labelledby="comments-heading">
-  <h2 id="comments-heading">Comments</h2>
+  <h2 id="comments-heading" data-title-pt="Comentários" data-title-en="Comments">{% if meta.mainLanguage == "en" %}Comments{% else %}Comentários{% endif %}</h2>
   <div class="giscus"></div>
   <script
     src="https://giscus.app/client.js"
@@ -66,6 +66,10 @@
         );
       };
 
+      function currentLang() {
+        return document.body.classList.contains("lang-en") ? "en" : "pt";
+      }
+
       function bindThemeSync() {
         var frame = comments.querySelector("iframe.giscus-frame");
         if (!frame) return false;
@@ -73,10 +77,12 @@
           "load",
           function () {
             window.updateGiscusTheme(currentTheme());
+            window.updateGiscusLang(currentLang());
           },
           { once: true }
         );
         window.updateGiscusTheme(currentTheme());
+        window.updateGiscusLang(currentLang());
         return true;
       }
 

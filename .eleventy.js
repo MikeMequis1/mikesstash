@@ -123,6 +123,7 @@ const {
   userMarkdownSetup,
   userEleventySetup,
 } = require("./src/helpers/userSetup");
+const { getLocalizedTitlesFromNoteData } = require("./src/helpers/langUtils");
 const pluginLoader = require("./src/helpers/pluginLoader");
 const { basesPlugin } = require("./src/helpers/basesPlugin");
 
@@ -194,8 +195,24 @@ function computeAnchorAttributes(filePath, linkTitle) {
   }
 
   let noteIcon = process.env.NOTE_ICON_DEFAULT;
-  const title = linkTitle ? linkTitle : fileName;
+  // A link alias identical to the target file name adds no information, so
+  // treat it as absent and fall back to the note's (possibly bilingual) title.
+  // Genuine aliases like "< Back" are kept as-is.
+  const basename = nodePath.posix
+    .basename(fileName)
+    .replace(/\.(md|canvas)$/i, "");
+  const decodeEntities = (value) =>
+    String(value)
+      .replace(/&amp;/g, "&")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'");
+  const alias = typeof linkTitle === "string" ? decodeEntities(linkTitle).trim() : "";
+  const hasCustomAlias = alias !== "" && alias !== basename;
+  let title = hasCustomAlias ? linkTitle : basename;
   let permalink = `/notes/${slugify(fileName)}`;
+  let titles = null;
   let deadLink = false;
   try {
     const startPath = "./src/site/notes/";
@@ -219,6 +236,10 @@ function computeAnchorAttributes(filePath, linkTitle) {
     if (frontMatter.data.noteIcon) {
       noteIcon = frontMatter.data.noteIcon;
     }
+    if (!hasCustomAlias) {
+      titles = getLocalizedTitlesFromNoteData(frontMatter.data, basename);
+      title = titles.default;
+    }
   } catch {
     deadLink = true;
   }
@@ -233,13 +254,18 @@ function computeAnchorAttributes(filePath, linkTitle) {
       innerHTML: title,
     }
   }
+  const attributes = {
+    "class": "internal-link",
+    "target": "",
+    "data-note-icon": noteIcon,
+    "href": `${permalink}${headerLinkPath}`,
+  }
+  if (titles) {
+    attributes["data-title-pt"] = titles.pt;
+    attributes["data-title-en"] = titles.en;
+  }
   return {
-    attributes: {
-      "class": "internal-link",
-      "target": "",
-      "data-note-icon": noteIcon,
-      "href": `${permalink}${headerLinkPath}`,
-    },
+    attributes,
     innerHTML: title,
   }
 }

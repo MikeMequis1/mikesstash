@@ -13,3 +13,6 @@ src/site/_includes/plugins/
 .cache
 _site/
 **/.DS_Store
+# Agent skill installs (Vercel agent-skills, etc.)
+.agents/
+skills-lock.json
