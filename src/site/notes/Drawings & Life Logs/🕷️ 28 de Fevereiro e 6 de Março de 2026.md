@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/drawings-and-life-logs/28-de-fevereiro-e-6-de-marco-de-2026/","dg-note-properties":{"navOrder":10}}
+{"dg-publish":true,"permalink":"/drawings-and-life-logs/28-de-fevereiro-e-6-de-marco-de-2026/","title":{"pt":"🕷️ 28 de Fevereiro e 6 de Março de 2026","en":"🕷️ February 28 and March 6, 2026"},"dg-note-properties":{"navOrder":10,"title":{"pt":"🕷️ 28 de Fevereiro e 6 de Março de 2026","en":"🕷️ February 28 and March 6, 2026"}}}
 ---
+
+
+:::lang pt
 
 Logo depois de copiar a referência do professor, ele não quis deixar barato.
 
@@ -31,3 +34,39 @@ O meu pulso **dói** só de olhar para esse cabelo. Eu lembro que foi cerca de *
 ---
 *Escrito em 7 de Julho de 2026*
 [[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
+
+Right after copying the teacher's reference, he didn't want to go easy.
+
+>"Now do a face in **seven-eighths profile**. No pain, no gain. It has to be this way to actually learn something."
+
+Ok, those weren't the words **exactly**.
+
+But the idea, in the end, was precisely this. It's about continuing to **challenge yourself**, finding new ways to represent perspectives on paper. And going from a three-quarter profile to seven-eighths was one of them.
+
+The drawing itself I didn't find difficult, just **cumbersome**.
+
+![14Desenho.jpg](/img/user/img/Drawings/14Desenho.jpg)
+
+>[!tip] **Drawing 10: Parker in Profile**
+>*Drawing time - approx. 3h30*
+>*Reference - Peni Parker, from one of the many Spider-Verse movies that exist*
+
+And now you know why. The challenge wasn't drawing the profile. It was **coloring the hair**.
+
+It wasn't a challenge of skill. It was of **endurance**.
+
+My wrist **hurts** just from looking at that hair. I remember it took about **half an hour** working on it.
+
+>... I think the teacher wanted **revenge** for copying his reference.
+>But it's just a **suspicion**, I have no evidences over this statement.
+>![tenor.gif](/img/user/img/tenor.gif)
+
+---
+*Written on July 7, 2026*
+[[🎨 Drawings & Life Logs\|< Back]]
+
+:::

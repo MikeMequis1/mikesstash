@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/drawings-and-life-logs/27-de-fevereiro-de-2026/","dg-note-properties":{"navOrder":8}}
+{"dg-publish":true,"permalink":"/drawings-and-life-logs/27-de-fevereiro-de-2026/","title":{"pt":"🌵 27 de Fevereiro de 2026","en":"🌵 February 27, 2026"},"dg-note-properties":{"navOrder":8,"title":{"pt":"🌵 27 de Fevereiro de 2026","en":"🌵 February 27, 2026"}}}
 ---
+
+
+:::lang pt
 
 No desenho anterior, não estava convencido.
 
@@ -41,3 +44,49 @@ E a evolução tá bem notória.
 ---
 *Escrito em 6 de Julho de 2026*
 [[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
+
+In the previous drawing, I wasn't convinced.
+
+>"It's not possible... I couldn't draw a rocker in anime style?! I'm going to do the drawing **again**, even if it's by sheer **hatred**!"
+
+I start normally with the base structure of the face, the eyes, the hair...
+
+A random thought appears:
+
+> "Hmm... Cowboy. F#$@ it. I'll draw a hat, she's going to be a **cowgirl** now."
+
+From this drawing onward, I started developing a **habit**: trying to include some element I still **didn't know how to do properly**.
+
+Beyond drawing what I wanted, I **deliberately** sought out elements that were hard to illustrate. The idea was precisely to make mistakes, show the result to the teacher, and **learn to correct**.
+
+In this case, it was the **hat**, since I was used to drawing character faces with few accessories. Putting the hat on her, as simple as it was... is quite different.
+
+This drawing brought an interesting contrast in the classroom. It's different when you think:
+
+>"This is really hard... I'll just accept that it's hard and not try. I'll draw **something else** instead and **hide** this detail."
+
+And:
+
+>"This is really hard... I'll try to do it, even **knowing it will be bad**. I'll also **ask for help** to redo it and get tips on how to do it."
+
+Both thoughts involve being aware of the information that is difficult. The difference lies in the approach taken from that information.
+
+![11Desenho.jpg](/img/user/img/Drawings/11Desenho.jpg)
+
+>[!tip] **Drawing 8: Fearless Rancher**
+>*Drawing time - approx. 2h30*
+
+After I showed it to the teacher, he taught me how to draw a hat **fitted to the character's head**, and not **"resting"** on her head.
+
+Later on, on the days [[Drawings & Life Logs/🤠 2 e 9 de Maio de 2026\|May 2 and 9]], I redrew this character.
+And the progress is quite noticeable.
+
+---
+*Written on July 6, 2026*
+[[🎨 Drawings & Life Logs\|< Back]]
+
+:::

@@ -32,11 +32,11 @@ Algumas funcionalidades começaram como pequenos experimentos e acabaram se torn
   - Páginas envolvidas;
 - Moedas sociais interativas (links de perfil em 3D);
 - Documentação completa do **Asher**;
+- Tradução das histórias de desenho para o inglês;
 
 ### 🟡 Em desenvolvimento
 
 - Páginas do **Refúgio da Web**;
-- Tradução das histórias de desenho para o inglês;
 - Página sobre os problemas envolvendo imagens geradas por IA.
 
 Esta lista também faz parte do próprio desenvolvimento do site e pode mudar conforme novas ideias aparecem.
@@ -105,11 +105,11 @@ Some features started as small experiments and eventually became important parts
   - Related pages;
 - Interactive social coins (3D profile links);
 - Complete **Asher** documentation;
+- English translations for drawing stories;
 
 ### 🟡 In development
 
 - **Web Haven** pages;
-- English translations for drawing stories;
 - A page about the issues surrounding AI-generated images.
 
 This list is also part of the site's development and may change as new ideas come along.

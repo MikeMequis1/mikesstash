@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/drawings-and-life-logs/13-e-14-de-marco-de-2026/","dg-note-properties":{"navOrder":12}}
+{"dg-publish":true,"permalink":"/drawings-and-life-logs/13-e-14-de-marco-de-2026/","title":{"pt":"🐱 13 e 14 de Março de 2026","en":"🐱 March 13 and 14, 2026"},"dg-note-properties":{"navOrder":12,"title":{"pt":"🐱 13 e 14 de Março de 2026","en":"🐱 March 13 and 14, 2026"}}}
 ---
+
+
+:::lang pt
 
 Eu sei o que está pensando:
 
@@ -108,3 +111,116 @@ Exceto o fato do professor olhar meu desenho, depois me olhar e perguntar se eu 
 ---
 *Escrito em 7 de Julho de 2026*
 [[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
+
+I know what you're thinking:
+
+>"Wow, you made **three** drawings in **one class**?!"
+
+... No. The first drawing was finished at **midnight**, a day before the class. **Sleep** spoke louder and made me record the wrong date. The other two, yes, were made during the class.
+
+I have a lot to say here, so put on your **reading glasses**.
+
+Now, talking about the drawing itself. The first one, **Nyxa Vox**, who has already appeared in earlier images. Despite appearances, this drawing does not represent a **split personality**. It portrays **part of Nyxa's story**.
+
+![16Desenho.jpg](/img/user/img/Drawings/16Desenho.jpg)
+
+>[!tip] **Drawing 12: Soul of Performance and Madness**
+>*Drawing time - approx. 3h20*
+
+On one side, we see the actress, a **vessel** who performs madness in a **theater**, before the audience.
+
+On the other, we see the **madness**. The character who bathes in the blood of enemies and in her own **downfall**.
+
+*The soul that enchants the crowd.  
+The insanity that delights in its own blood.
+In common, they share the deadly smile that permeates the darkness.
+Until the last laugh is the only song.*
+
+---
+
+The next drawing has an interesting story behind it.
+
+In the previous one, you may notice **rigid and thick strokes**.
+
+Does that give a cool look consistent with the **poetry** I wrote because I suddenly felt inspired?
+
+Yes.
+
+... But **it wasn't intentional**.
+
+Remember I mentioned **perfectionism hurting more than helping** a few pages back? Well, there it is. Since the first drawing, I had a habit that consumed **a lot** of my development time. The reason was simple: **I still didn't separate the drawing into stages**.
+
+The sequence for developing a drawing, in simple terms, would be in the form of sequential phases:
+
+```
+Geometric shapes & Sketch -> Touches and adjustments -> Finishing.
+```
+
+My sequence was this:
+
+```
+Geometric shapes & Sketch + Touches and adjustments + Finishing.
+```
+
+All at once, at the same time.
+
+I constantly reworked the sketch. I was literally **polishing** the sketch. I couldn't move on to the next step until the circle, the proportion, the curve, whatever it was in the sketch, was perfect.
+
+The teacher, after seeing my drawing, said:
+
+>"Make the lines very light and in one go. Don't keep nibbling at the sheet. If it turns out bad, you fix it later. It's much easier to assess proportions during the sketch than when the drawing is already being finished."
+
+After that, and after realizing my **insecurity** once again... I turned on **F%$@-it mode**.
+
+I just thought:
+
+>"You know what? F$%@ it. I'm going to draw **straight away**. I won't keep nibbling. I'll trust the sketch. I won't think about **proportions** or **fractions**. If it turns out bad, so be it, move onto the next. I won't think about **the position of this or that**. I'll look at the reference and **draw**."
+
+The circle dropped from twenty to ten minutes.
+The eyes, from thirty to fifteen.
+
+For the first time, I drew before judging.
+
+In the end, I had an illustration with softer curves and fine strokes.
+
+![17Desenho.jpg](/img/user/img/Drawings/17Desenho.jpg)
+
+>[!tip] **Drawing 13: Lyssa Wheeler**
+>*Drawing time - 2h30*
+
+Besides being quite faithful to the reference, this drawing came out much **faster**. For the first time, I had the feeling that I wasn't fighting with myself during the process. I was simply... drawing.
+
+It was an experience that made me look at the result and say:
+
+>"Wow... Drawing is **so cool**."
+
+After that, I felt like this meme here:
+
+https://youtu.be/ZZ5LpwO-An4
+
+---
+
+After Lyssa, who is a human face with cat ears, I decided to increase the difficulty and move on to a **wolf character**. The process still starts with a human face. Then, the snout is added (which is like fitting a small **box** onto the mouth area), followed by fur and ears.
+
+>[!question] Detail: Although it's an anthropomorphic character, the ears are positioned **perpendicular** to the axis of human ears, preserving the animal's anatomy and making the result more convincing.
+
+![18Desenho.jpg](/img/user/img/Drawings/18Desenho.jpg)
+
+>[!tip] **Drawing 14: Oliver Reed (wolf)**
+>*Drawing time - 3h20*
+
+This one follows the direction of the narrative I developed up above, so I don't have much to comment here.
+
+Except the fact that the teacher looked at my drawing, then looked at me, and asked if I was a *furry*.
+
+>[!info] These drawings mark an important detail: the images used as reference were **AI-generated**. At the time I did this study, I **wasn't aware** of the discussions involving the use of this kind of image in model training and its impacts on **artists**. Today I try to give preference to works published by artists or to photographs. I'll leave a page detailing this issue to keep this history **transparent** rather than erasing it or pretending it never happened, and also to inform readers about the negative impact of this material.
+
+---
+*Written on July 7, 2026*
+[[🎨 Drawings & Life Logs\|< Back]]
+
+:::

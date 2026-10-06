@@ -44,15 +44,6 @@ The next version will focus on improving the manager experience and installation
 - **Custom application icon & Desktop shortcut** → provide a custom Asher application icon and create a Desktop shortcut during installation
 - **Multiple game installations** → support multiple installations of the same game on a single device, such as having both the Steam and GOG versions installed
 
-## Backlog
-
-- **Mod metadata** → a `mod.json` schema with description, load order, and dependencies
-- **Content patcher** → intercept `ContentManager.Load<T>()` and support `content.json` replacements
-- **Mod configuration UI** → per-mod settings files and manager integration
-- **Public mod API docs** → developer documentation and examples
-- **Customizable Discord Rich Presence** → toggle visible information regarding the active game session
-- Linux: external Steam/desktop launch, in-app updater, `.deb` packaging
-
 ---
 
 [[🐱 Asher\|< Back]]
@@ -100,13 +91,6 @@ A próxima versão será focada em melhorias na experiência do gerenciador e no
 - **Discord Rich Presence** → adicionar integração com o Discord Rich Presence para a sessão de jogo ativa
 - **Ícone personalizado da aplicação + atalho na área de trabalho** → fornecer um ícone próprio para o Asher e criar um atalho na área de trabalho durante a instalação
 - **Múltiplas instalações do jogo** → permitir diferentes instalações do mesmo jogo em um único dispositivo, como possuir simultaneamente as versões de Steam e GOG
-
-## Backlog
-
-- **Metadados de mod** → esquema `mod.json` com descrição, ordem de carregamento e dependências
-- **Content patcher** → interceptar `ContentManager.Load<T>()` e suportar substituições via `content.json`
-- **UI de configuração de mods** → arquivos de configuração por mod e integração no gerenciador
-- **Documentação pública da API de mods** → documentação e exemplos para desenvolvedores
 
 ---
 

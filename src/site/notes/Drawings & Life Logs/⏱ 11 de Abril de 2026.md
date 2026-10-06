@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/drawings-and-life-logs/11-de-abril-de-2026/","dg-note-properties":{"navOrder":15}}
+{"dg-publish":true,"permalink":"/drawings-and-life-logs/11-de-abril-de-2026/","title":{"pt":"⏱ 11 de Abril de 2026","en":"⏱ April 11, 2026"},"dg-note-properties":{"navOrder":15,"title":{"pt":"⏱ 11 de Abril de 2026","en":"⏱ April 11, 2026"}}}
 ---
+
+
+:::lang pt
 
 Lembra da dificuldade que tive em ilustrar cabelos e pelugens **desarrumados**?
 
@@ -30,3 +33,38 @@ Você pode ter notado, mas foi a partir desse ponto que comecei a escrever na fo
 ---
 *Escrito em 12 de Julho de 2026*
 [[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
+
+Remember the difficulty I had illustrating **messy** hair and fur?
+
+Well, this was the moment the teacher wanted to push beyond the limit.
+
+>"The next step is to draw a face in **half profile**. And it's going to be this one."
+
+I remember looking at the reference as if I were seeing a drawing that was **impossible** to make. What scared me most wasn't even the face and its structure. It was the hair.
+
+It sounds a bit cliché to say this after so many pages, but this one...
+
+The proportion, the size, the curves, and the feeling of **wind** hitting the strands...
+
+This one was a **doozy**.
+
+... But I'm happy with the result. Not only with the result, but with how good it was to face the challenge and how it helped me in **future** drawings. It was practically an **exercise**.
+
+![21Desenho.jpg](/img/user/img/Drawings/21Desenho.jpg)
+
+>[!tip] **Drawing 17: Wind Hair**
+>*Drawing time - 2h30*
+>*Reference - Exercise sheet from the drawing classes*
+
+You may have noticed, but it was from this point on that I started writing the **time spent** on the sheet. Not only for record-keeping, but also as a **progress metric**. What once, at the start of my classes, took ages to make an incomplete egg-head, was now **more than enough** to draw a half-profile face, with hair under the effect of wind.
+
+
+---
+*Written on July 12, 2026*
+[[🎨 Drawings & Life Logs\|< Back]]
+
+:::

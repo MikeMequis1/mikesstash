@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/drawings-and-life-logs/17-de-janeiro-de-2026/","dg-note-properties":{"navOrder":1}}
+{"dg-publish":true,"permalink":"/drawings-and-life-logs/17-de-janeiro-de-2026/","title":{"pt":"🥚 17 de Janeiro de 2026","en":"🥚 January 17, 2026"},"dg-note-properties":{"navOrder":1,"title":{"pt":"🥚 17 de Janeiro de 2026","en":"🥚 January 17, 2026"}}}
 ---
+
+
+:::lang pt
 
 O **primeiro dia oficial** que comecei minhas aulas de desenho. Pense em uma pessoa ansiosa para começar as aulas e que achou que iria se dar muito bem.
 
@@ -88,3 +91,96 @@ Não se preocupe, as ilustrações seguintes não terão muralhas de texto como 
 ---
 *Escrito em 5 de Julho de 2026*
 [[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
+
+The **first official day** I started my drawing classes. Imagine someone eager to start the classes and who thought he would do really well.
+
+>"Well, I drew **a lot** in elementary and high school, I'll breeze through these classes. **I don't know anything about the theory and logic behind it**, but I'll learn in no time with what I have so far."
+
+I arrived at the trial class and they do the introductory checkup, showing how you draw today and your linework, among other things...
+
+I had **nothing** to show, and the drawings I had were about **6 years old or more** (The last drawing I had made was really from high school... Back in **2020**).
+
+...But even so, I was determined.
+Did I start from absolute zero?
+I did.
+**Did I only realize that when I got there**?
+... Yes.
+
+They asked:
+> "Draw a face the way you know how, in **your style**".
+
+The result was that *alien* head below (the middle one is the teacher's, just to point out the difference clearly):
+
+![3Desenho.jpg](/img/user/img/Drawings/3Desenho.jpg)
+
+... Yeah, you can see I still had **a lot** to evolve.
+
+---
+
+Alright, **first face**. The teacher starts the drawing with a simple circle. After that, there are some reference lines and measurements following the [**Loomis**](https://www.21-draw.com/pt/loomis-method/) method. He was kind and willing enough to even draw a mini **step-by-step** for drawing the face: circles, pizzas, eyebrow height, eye height, neck shape, among others.
+
+![2Desenho.jpg](/img/user/img/Drawings/2Desenho.jpg)
+
+---
+
+Awesome, let's start drawing!
+
+... My first **difficulty** was drawing a circle.
+
+ONE.
+
+F$%&NG.
+
+**CIRCLE**.
+
+At that moment, I panicked internally. For three hours, I was hammering down the same pessimistic thought:
+
+>"How is it possible that I, a computer engineer, who got good grades in **technical drawing**, wasn't able to draw a simple **CIRCLE**?! Something is clearly wrong..."
+
+You know the scene from the movie [**Whiplash**](https://www.imdb.com/title/tt2582802/)? The one where the protagonist gets a chair thrown at him by the teacher for not playing to his rhythm?
+
+https://youtu.be/yJ5r1TVR5Ao?si=Lsm0z9g4CySHWo-q
+
+Imagine it repeating for the duration of the entire drawing class (Context: the class is **3h** long). I know it sounds like an exaggeration... But believe it, it really happened in my mind.
+
+I know what you're thinking:
+
+>"Wow, so the class was horrible having to go through that torture. **The teacher must have been really hard on you** to leave a mark like that. If it were me, I'd have already quit the class..."
+
+**No**. All that torture, that madness... It was the result of me being **frustrated** with myself. It was precisely a barrier that needed to be overcome. Not in the drawing class, but in my life **as a whole**.
+
+At that moment, I projected myself as the student and the teacher **at the same time**. It was my **perfectionism** hurting more than helping. It was the perfectionism and **insecurity** that, if I didn't start the right way, if nothing I did was millimetrically and methodically calculated, **even the effort itself wasn't worth it**.
+
+In that scenario, there was no pressure coming from my classmates and teachers. There was no stress. There was **nothing** actively causing that torture. The teacher was **willing to teach**, relaxed, laughed and joked along with the students, gave all the **freedom** and time for the students to draw.
+
+The teacher himself **noticed** how I was. I had spent an hour drawing circles and circles on a sheet nonstop. He said:
+
+>"Dude, don't get stuck on the circle or on making it perfect. You're still in the **sketch**, there's no point in perfecting it now. You start and adjust as you draw..."
+
+So, I stopped and did exactly that. I borrowed a **ruler** and a **compass** and made a base structure of the face following the step-by-step guidelines.
+
+Finally, the result was what you're seeing below: the **Ice Guy from Temu**. The Incredibles' egg-head. And on top of that with crooked reference lines (I noticed that while writing).
+
+![1Desenho.jpg](/img/user/img/Drawings/1Desenho.jpg)
+
+>[!tip] **Drawing 1: Egg Head**
+>*Drawing time - 3h* (considering internal psychological breakdowns involved)
+>*Reference: Teacher's Mini Step-by-Step, no specific character*
+
+Far from perfect and even further from an anime character, but it was the **beginning** of my overcoming. And also the beginning of another essential factor in drawing: **letting yourself go**. Freeing yourself from **perfectionism**. Freeing yourself from **worries about the final result**. Just... Drawing. Of course, along with a goal, with a methodology, but **not letting yourself get stuck**. Developing conviction little by little, and **allowing yourself to make mistakes**.
+
+Drawing is like **learning an instrument or a new language**. Besides discovering and studying, it's essential to practice in your **daily basis**. It's producing, no matter how small or bad it may be, it's going forward. It's forgiving yourself and trying again.
+
+---
+
+Don't worry, the following illustrations won't have walls of text like this one, only the most important and impactful ones.
+
+---
+*Written on July 5, 2026*
+[[🎨 Drawings & Life Logs\|< Back]]
+
+:::

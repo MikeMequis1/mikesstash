@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/drawings-and-life-logs/image-viewer/","title":{"pt":"🎦 Visualizador de imagens","en":"🎦 Image Viewer"},"dg-note-properties":{"dgShowComments":false,"dgShowImageViewer":true,"title":{"pt":"🎦 Visualizador de imagens","en":"🎦 Image Viewer"},"navOrder":0}}
+{"dg-publish":true,"permalink":"/drawings-and-life-logs/image-viewer/","title":{"pt":"🎦 Visualizador de imagens","en":"🎦 Image Viewer"},"dg-note-properties":{"dgShowComments":false,"dgShowImageViewer":true,"navOrder":0,"title":{"pt":"🎦 Visualizador de imagens","en":"🎦 Image Viewer"}}}
 ---
 
 
@@ -16,7 +16,9 @@
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 1: Egg Head**
+>*Drawing time - 3h* (considering internal psychological breakdowns involved)
+>*Reference: Teacher's Mini Step-by-Step, no specific character*
 :::
 
 ![Drawings/4Desenho.jpg](/img/user/img/Drawings/4Desenho.jpg)
@@ -29,7 +31,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 2: Big Head Ochako Uraraka**
+>*Drawing time - 3h*
+>*Reference: Previous drawing + Ochako Uraraka, from My Hero Academia*
 :::
 
 ![Drawings/5Desenho.jpg](/img/user/img/Drawings/5Desenho.jpg)
@@ -42,7 +46,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 3: Sassy Bakugo**
+>*Drawing time - 3h*
+>*Reference: Katsuki Bakugo, from My Hero Academia*
 :::
 
 ![Drawings/6Desenho.jpg](/img/user/img/Drawings/6Desenho.jpg)
@@ -54,7 +60,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 4: Nyxa Vox in the Dark**
+>*Drawing time - approx. 1h45* (incomplete)
 :::
 
 ![Drawings/7Desenho.jpg](/img/user/img/Drawings/7Desenho.jpg)
@@ -67,7 +74,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 5: Megumi "Stiff-Neck" Fushiguro**
+>*Drawing time - 3h*
+>*Reference: Megumi Fushiguro, from Jujutsu Kaisen*
 :::
 
 ![Drawings/8Desenho.jpg](/img/user/img/Drawings/8Desenho.jpg)
@@ -80,7 +89,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 6: Frieren**
+>*Drawing time - 4h*
+>*Reference: Frieren, from Sousou no Frieren*
 :::
 
 ![Drawings/9Desenho.jpg](/img/user/img/Drawings/9Desenho.jpg)
@@ -92,7 +103,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!question] **Drawing 6.5: Spiral Eyes Experiment**
+>*Drawing time - approx. 1h20*
 :::
 
 ![Drawings/10Desenho.jpg](/img/user/img/Drawings/10Desenho.jpg)
@@ -104,7 +116,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 7: Woke Rocker**
+>*Drawing time - 3h*
 :::
 
 ![Drawings/11Desenho.jpg](/img/user/img/Drawings/11Desenho.jpg)
@@ -116,7 +129,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 8: Fearless Rancher**
+>*Drawing time - approx. 2h30*
 :::
 
 ![Drawings/13Desenho.jpg](/img/user/img/Drawings/13Desenho.jpg)
@@ -129,7 +143,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 9: Current Mood**
+>*Drawing time - approx. 2h30*
+>*Reference - Teacher's didactic example*
 :::
 
 ![Drawings/14Desenho.jpg](/img/user/img/Drawings/14Desenho.jpg)
@@ -142,7 +158,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 10: Parker in Profile**
+>*Drawing time - approx. 3h30*
+>*Reference - Peni Parker, from one of the many Spider-Verse movies that exist*
 :::
 
 ![Drawings/15Desenho.jpg](/img/user/img/Drawings/15Desenho.jpg)
@@ -154,7 +172,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 11: Voice of Nyxa Vox**
+>*Drawing time - 3h*
 :::
 
 ![Drawings/16Desenho.jpg](/img/user/img/Drawings/16Desenho.jpg)
@@ -166,7 +185,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 12: Soul of Performance and Madness**
+>*Drawing time - approx. 3h20*
 :::
 
 ![Drawings/17Desenho.jpg](/img/user/img/Drawings/17Desenho.jpg)
@@ -178,7 +198,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 13: Lyssa Wheeler**
+>*Drawing time - 2h30*
 :::
 
 ![Drawings/18Desenho.jpg](/img/user/img/Drawings/18Desenho.jpg)
@@ -190,7 +211,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 14: Oliver Reed (wolf)**
+>*Drawing time - 3h20*
 :::
 
 ![Drawings/19Desenho.jpg](/img/user/img/Drawings/19Desenho.jpg)
@@ -202,7 +224,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 15: Distressed Oliver**
+>*Drawing time - 3h*
 :::
 
 ![Drawings/20Desenho.jpg](/img/user/img/Drawings/20Desenho.jpg)
@@ -214,7 +237,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 16: Fidget Plush**
+>*Drawing time - 2h20*
 :::
 
 ![Drawings/21Desenho.jpg](/img/user/img/Drawings/21Desenho.jpg)
@@ -227,7 +251,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 17: Wind Hair**
+>*Drawing time - 2h30*
+>*Reference - Exercise sheet from the drawing classes*
 :::
 
 ![Drawings/22Desenho.jpg](/img/user/img/Drawings/22Desenho.jpg)
@@ -239,7 +265,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 18: Natalie Reyes**
+>*Drawing time - 3h*
 :::
 
 ![Drawings/23_24Desenho.jpg](/img/user/img/Drawings/23_24Desenho.jpg)
@@ -252,7 +279,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawings 19 & 20: Fearless Rancher, Second Version**
+>*Drawing time - 3h*
+>*Reference: First version of the drawing, in [[Drawings & Life Logs/🌵 27 de Fevereiro de 2026\|February 27, 2026]]*
 :::
 
 ![Drawings/25Desenho.jpg](/img/user/img/Drawings/25Desenho.jpg)
@@ -265,7 +294,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 21: Oliver in Profile**
+>*Drawing time - 2h30*
+>*Reference: Illustration from [[Drawings & Life Logs/🐱 13 e 14 de Março de 2026\|March 13]]*
 :::
 
 ![Drawings/26Desenho.png](/img/user/img/Drawings/26Desenho.png)
@@ -278,7 +309,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 22: Two Perspectives**
+>*Drawing time - 3h30*
+>*Reference: Exercise sheet from the drawing classes*
 :::
 
 ![Drawings/27Desenho.jpg](/img/user/img/Drawings/27Desenho.jpg)
@@ -291,7 +324,9 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 23: Basic Profile**
+>*Drawing time - approx. 2h30*
+>*Reference: Face example obtained from the internet*
 :::
 
 ![Drawings/28Desenho.jpg](/img/user/img/Drawings/28Desenho.jpg)
@@ -303,7 +338,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 24: Oliver and Lyssa**
+>*Drawing time - 6h (3h + 3h)*
 :::
 
 ![Drawings/29Desenho.jpg](/img/user/img/Drawings/29Desenho.jpg)
@@ -315,7 +351,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 25: Happy Nerd Girl**
+>*Drawing time - approx. 1h40*
 :::
 
 ![Drawings/30Desenho.jpg](/img/user/img/Drawings/30Desenho.jpg)
@@ -327,7 +364,8 @@ Working on it, sorry!
 
 :::
 :::lang en
-Working on it, sorry!
+>[!tip] **Drawing 26: Imminent Death in Space**
+>*Drawing time - 4h*
 :::
 
 :::dg-viewer

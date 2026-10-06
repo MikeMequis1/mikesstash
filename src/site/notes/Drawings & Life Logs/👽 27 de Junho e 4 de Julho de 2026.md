@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/drawings-and-life-logs/27-de-junho-e-4-de-julho-de-2026/","dg-note-properties":{"navOrder":23}}
+{"dg-publish":true,"permalink":"/drawings-and-life-logs/27-de-junho-e-4-de-julho-de-2026/","title":{"pt":"👽 27 de Junho e 4 de Julho de 2026","en":"👽 June 27 and July 4, 2026"},"dg-note-properties":{"navOrder":23,"title":{"pt":"👽 27 de Junho e 4 de Julho de 2026","en":"👽 June 27 and July 4, 2026"}}}
 ---
+
+
+:::lang pt
 
 ... Sim. Mais um personagem com expressão de surpresa em meio perfil. Porém, este passou por um monte de **zigue-zagues** antes de chegar ao resultado final.
 
@@ -35,3 +38,43 @@ Achei legal pois mostra que **criatividade** nem sempre é "ter uma ideia genial
 ---
 *Escrito em 15 de Julho de 2026*
 [[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
+
+... Yes. Another character with a surprised expression in half profile. However, this one went through a lot of **zigzags** before reaching the final result.
+
+The idea was initially simple: use the perspective and expression of the reference to draw **Lyssa**, following the same proposal as the exercise done on [[Drawings & Life Logs/👥 23 de Maio de 2026\|May 23]].
+
+But, the day before class, two pieces of information came up that my subconscious, for no apparent reason, decided to mix:
+- I played the nostalgic **Toy Story 3** on Xbox 360;
+- I found the channel of the small content creator [**Fenny**](https://www.youtube.com/@RomanBraixen), who usually posts drawings in the **community tab**, generally involving Pokémon and small animals.
+
+Without realizing it, my brain simply concluded:
+
+> "You know what? I'm going to draw a **rat** and f#%@ it. It's going to be a rat wearing a **motorcycle helmet**."
+
+I finished the character's face and ears.
+
+... **I still wasn't convinced**. I wanted the expression to have a **reason**.
+
+Another totally random idea came up:
+>"I'm going to draw an **astronaut** helmet. And its visor will be **cracking**, on the verge of shattering in the middle of space."
+
+In the end, I got the following result:
+
+![30Desenho.jpg](/img/user/img/Drawings/30Desenho.jpg)
+
+>[!tip] **Drawing 26: Imminent Death in Space**
+>*Drawing time - 4h*
+
+The detail I liked most was the **cracks** in the visor. With the teacher's help, I managed to represent the fissures and the small fragments of glass floating around, which ended up greatly reinforcing the sense of **danger**.
+
+I thought it was cool because it shows that **creativity** isn't always "having a brilliant idea out of nowhere". Sometimes it's a collision of completely different references that were stored away.
+
+---
+*Written on July 15, 2026*
+[[🎨 Drawings & Life Logs\|< Back]]
+
+:::
