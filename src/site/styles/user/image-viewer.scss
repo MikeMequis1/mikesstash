@@ -1,4 +1,4 @@
-body:has(.dg-image-viewer) .content {
+body:has(.content .dg-image-viewer) .content {
   max-width: none;
   margin-left: calc(var(--dg-filetree-width, 250px) + 20px);
   margin-right: 20px;
@@ -22,7 +22,7 @@ body:has(.dg-image-viewer) .content {
   }
 }
 
-body:has(.dg-image-viewer) .sidebar {
+body:has(.content .dg-image-viewer) .sidebar {
   @media (max-width: 1400px) {
     display: none;
   }
