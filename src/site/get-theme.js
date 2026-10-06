@@ -10,18 +10,21 @@ async function getTheme() {
   let themeUrl = process.env.THEME;
   if (themeUrl) {
     //https://forum.obsidian.md/t/1-0-theme-migration-guide/42537
-    //Not all themes with no legacy mark have a theme.css file, so we need to check for it
+    //Not all themes with no legacy mark have a theme.css file, so if the
+    //first fetch 404s, retry the alternate filename. Fetching once (instead of
+    //a probe GET followed by a second GET of the same URL) halves the network
+    //round trips on every dev start.
+    let res;
     try {
-      await axios.get(themeUrl);
+      res = await axios.get(themeUrl);
     } catch {
       if (themeUrl.indexOf("theme.css") > -1) {
         themeUrl = themeUrl.replace("theme.css", "obsidian.css");
       } else if (themeUrl.indexOf("obsidian.css") > -1) {
         themeUrl = themeUrl.replace("obsidian.css", "theme.css");
       }
+      res = await axios.get(themeUrl);
     }
-
-    const res = await axios.get(themeUrl);
     try {
       const existing = globSync("src/site/styles/_theme.*.css");
       existing.forEach((file) => {

@@ -77,6 +77,24 @@ function buildYouTubePlaylistEmbedHtml(playlistId) {
 </div>`;
 }
 
+function buildYouTubeVideoEmbedHtml(videoId) {
+  const src = `https://www.youtube.com/embed/${encodeURIComponent(
+    videoId
+  )}?rel=0&modestbranding=1&playsinline=1`;
+  const openHref = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+  return `<div class="playlist-embed playlist-embed--youtube" data-yt-video="${escapeAttr(
+    videoId
+  )}">
+  <div class="playlist-embed__chrome">
+    <span class="playlist-embed__label">YouTube</span>
+    ${openLinkHtml(openHref)}
+  </div>
+  <iframe class="playlist-embed__frame" src="${escapeAttr(
+    src
+  )}" title="YouTube video" width="100%" height="352" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+</div>`;
+}
+
 function buildSpotifyEmbedHtml(src, height = "352") {
   const themedSrc = withSpotifyTheme(src);
   const openHref = spotifyOpenUrl(src);
@@ -192,6 +210,7 @@ module.exports = {
   withSpotifyTheme,
   spotifyOpenUrl,
   buildYouTubePlaylistEmbedHtml,
+  buildYouTubeVideoEmbedHtml,
   buildSpotifyEmbedHtml,
   upgradePlaylistEmbeds,
 };

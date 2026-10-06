@@ -25,7 +25,8 @@ cp .env.example .env   # then fill in site/Giscus settings
 ### Commands
 
 ```bash
-npm run dev            # get-theme + build:sass + watch sass/eleventy (live reload)
+npm run dev            # get-theme + build:sass + watch sass/eleventy (live reload, full-resolution images)
+npm run dev:full       # same, but optimizes images (slower first build)
 npm run build          # production build (get-theme + build:sass + build:eleventy)
 npm test               # run Vitest suite
 
@@ -34,7 +35,8 @@ npm run get-theme      # fetch the Obsidian theme CSS
 npm run build:sass     # compile Sass (compressed)
 npm run build:eleventy # Eleventy production build
 npm run watch:sass     # watch Sass
-npm run watch:eleventy # Eleventy dev server
+npm run watch:eleventy # Eleventy dev server (optimizes images)
+npm run watch:eleventy-fast # Eleventy dev server, full-resolution images
 ```
 
 ## Note Properties

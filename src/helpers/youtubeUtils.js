@@ -1,3 +1,5 @@
+const { buildYouTubeVideoEmbedHtml } = require("./playlistEmbedUtils");
+
 const YOUTUBE_ID_PATTERNS = [
   /youtu\.be\/([^?&#/]+)/i,
   /youtube\.com\/watch\?(?:[^#]*&)?v=([^?&#/]+)/i,
@@ -19,18 +21,6 @@ function extractYouTubeId(url) {
   return null;
 }
 
-function buildVisualizerHtml(videoId) {
-  return `<div class="yt-visualizer-player" data-yt-id="${videoId}">
-  <div class="yt-visualizer-video">
-    <video class="yt-visualizer-media" controls playsinline crossorigin="anonymous" preload="metadata" poster="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg"></video>
-    <div class="yt-visualizer-video-target yt-visualizer-fallback" hidden></div>
-  </div>
-  <div class="yt-visualizer-eq" aria-hidden="true">
-    <canvas class="yt-visualizer-canvas"></canvas>
-  </div>
-</div>`;
-}
-
 function parseSnippet(html) {
   const { parse } = require("node-html-parser");
   return parse(html).firstChild;
@@ -50,22 +40,20 @@ function upgradeYouTubeEmbeds(root) {
   if (!content) return;
 
   for (const embed of content.querySelectorAll(".youtube-embed")) {
-    if (embed.closest(".yt-visualizer-player")) continue;
     if (embed.closest(".playlist-embed")) continue;
     const iframe = embed.querySelector("iframe");
     if (!iframe) continue;
     const videoId = extractYouTubeId(iframe.getAttribute("src") || "");
     if (!videoId) continue;
-    embed.replaceWith(parseSnippet(buildVisualizerHtml(videoId)));
+    embed.replaceWith(parseSnippet(buildYouTubeVideoEmbedHtml(videoId)));
   }
 
   for (const anchor of content.querySelectorAll("a[href]")) {
-    if (anchor.closest(".yt-visualizer-player")) continue;
     if (anchor.closest(".playlist-embed")) continue;
     const videoId = extractYouTubeId(anchor.getAttribute("href") || "");
     if (!videoId) continue;
 
-    const replacement = parseSnippet(buildVisualizerHtml(videoId));
+    const replacement = parseSnippet(buildYouTubeVideoEmbedHtml(videoId));
     if (shouldReplaceParentParagraph(anchor)) {
       anchor.parentNode.replaceWith(replacement);
     } else {
@@ -76,6 +64,5 @@ function upgradeYouTubeEmbeds(root) {
 
 module.exports = {
   extractYouTubeId,
-  buildVisualizerHtml,
   upgradeYouTubeEmbeds,
 };

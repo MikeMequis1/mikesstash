@@ -1,10 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { parse } from "node-html-parser";
-import {
-  buildVisualizerHtml,
-  extractYouTubeId,
-  upgradeYouTubeEmbeds,
-} from "./youtubeUtils.js";
+import { extractYouTubeId, upgradeYouTubeEmbeds } from "./youtubeUtils.js";
 
 describe("extractYouTubeId", () => {
   it("parses youtu.be links", () => {
@@ -37,11 +33,14 @@ describe("upgradeYouTubeEmbeds", () => {
   it("replaces youtube links inside content", () => {
     const html = parse(`<main class="content"><p><a href="https://youtu.be/abc123">watch</a></p></main>`);
     upgradeYouTubeEmbeds(html);
-    expect(html.querySelector(".yt-visualizer-player")).not.toBeNull();
-    expect(html.querySelector(".yt-visualizer-player").getAttribute("data-yt-id")).toBe(
-      "abc123"
+    const embed = html.querySelector(".playlist-embed--youtube");
+    expect(embed).not.toBeNull();
+    expect(embed.getAttribute("data-yt-video")).toBe("abc123");
+    expect(html.querySelector("iframe").getAttribute("src")).toContain(
+      "embed/abc123"
     );
-    expect(html.querySelector("a[href*='youtu']")).toBeNull();
+    expect(html.querySelector(".playlist-embed__open")).not.toBeNull();
+    expect(html.querySelector("p")).toBeNull();
   });
 
   it("upgrades existing youtube embed markup", () => {
@@ -50,17 +49,8 @@ describe("upgradeYouTubeEmbeds", () => {
     );
     upgradeYouTubeEmbeds(html);
     expect(html.querySelector(".youtube-embed")).toBeNull();
-    expect(html.querySelector(".yt-visualizer-player").getAttribute("data-yt-id")).toBe(
+    expect(html.querySelector(".playlist-embed--youtube").getAttribute("data-yt-video")).toBe(
       "xyz789"
     );
-  });
-});
-
-describe("buildVisualizerHtml", () => {
-  it("includes the video id and visualizer canvas", () => {
-    const html = buildVisualizerHtml("test-id");
-    expect(html).toContain('data-yt-id="test-id"');
-    expect(html).toContain("yt-visualizer-canvas");
-    expect(html).toContain("yt-visualizer-media");
   });
 });

@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "prebuild": "rimraf dist",
-        "dev": "npm-run-all get-theme build:sass --parallel watch:*",
+        "dev": "npm-run-all get-theme build:sass --parallel watch:sass watch:eleventy-fast",
+        "dev:full": "npm-run-all get-theme build:sass --parallel watch:sass watch:eleventy",
         "dev:fast": "npm-run-all build:sass --parallel watch:sass watch:eleventy-fast",
         "watch:sass": "sass --watch src/site/styles:dist/styles",
         "watch:eleventy": "cross-env ELEVENTY_ENV=dev eleventy --serve",
@@ -54,7 +55,6 @@
         "npm-run-all": "^4.1.5",
         "rimraf": "^4.4.1",
         "sharp": "^0.33.4",
-        "yaml": "^2.8.3",
-        "youtubei.js": "^17.2.0"
+        "yaml": "^2.8.3"
     }
 }

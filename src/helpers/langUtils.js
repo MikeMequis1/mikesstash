@@ -1,6 +1,12 @@
 const SUPPORTED_LANGS = ["pt", "en"];
 const DEFAULT_LANG = "pt";
 
+// Read lazily (not at module load) so it reflects .env loaded by the
+// .11tydata files; langUtils is required by .eleventy.js before dotenv runs.
+function getMainLang() {
+  return process.env.SITE_MAIN_LANGUAGE === "en" ? "en" : DEFAULT_LANG;
+}
+
 /**
  * Resolve a note title that may be a string or a bilingual map
  * ({ pt: "...", en: "..." }) into a plain string for the given language.
@@ -44,7 +50,8 @@ function getLocalizedTitles(title, fallback = "") {
   if (title != null && typeof title === "object" && !Array.isArray(title)) {
     const pt = resolveLocalizedTitle(title, safeFallback, "pt");
     const en = resolveLocalizedTitle(title, safeFallback, "en");
-    return { pt, en, default: pt };
+    const main = getMainLang();
+    return { pt, en, default: main === "en" ? en : pt };
   }
 
   const single = resolveLocalizedTitle(title, safeFallback, DEFAULT_LANG);

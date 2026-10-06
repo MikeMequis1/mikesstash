@@ -15,7 +15,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
   </head>
-  <body class="theme-{{meta.baseTheme}} lang-pt markdown-preview-view markdown-rendered markdown-preview-section {% if settings.dgShowFileTree !== true %}no-filetree{% endif %} {% if settings.dgHomeLink === true and settings.dgShowFileTree !== true %}has-navbar{% endif %} {{meta.bodyClasses}}">
+  <body class="theme-{{meta.baseTheme}} lang-{{ meta.mainLanguage }} markdown-preview-view markdown-rendered markdown-preview-section {% if settings.dgShowFileTree !== true %}no-filetree{% endif %} {% if settings.dgHomeLink === true and settings.dgShowFileTree !== true %}has-navbar{% endif %} {{meta.bodyClasses}}">
     {% include "components/themeInit.njk" %}
     {% include "components/langInit.njk" %}
     {%include "components/notegrowthhistory.njk"%}
@@ -94,7 +94,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% include "components/resumeButton.njk" %}
     {% include "components/themeSelect.njk" %}
     {% include "components/langToggle.njk" %}
-    {% include "components/youtubeVisualizer.njk" %}
     {% include "components/imageViewerScript.njk" %}
   </body>
 </html>

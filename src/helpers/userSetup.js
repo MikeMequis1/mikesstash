@@ -35,82 +35,6 @@ const markdownFileTypeRegex = /\.(md|markdown)$/i;
 const isMarkdownPage = (inputPath) =>
   inputPath && inputPath.match(markdownFileTypeRegex);
 
-async function ytAudioApiMiddleware(req, res, next) {
-  const pathname = (req.url || "").split("?")[0];
-
-  const audioCheckMatch = pathname.match(/^\/api\/yt-audio-check\/([^/]+)/);
-  if (audioCheckMatch) {
-    try {
-      const { isAudioStreamAvailable } = await import("./youtubeAudioApi.mjs");
-      const available = await isAudioStreamAvailable(audioCheckMatch[1]);
-      res.statusCode = 200;
-      res.setHeader("Content-Type", "application/json");
-      res.setHeader("Access-Control-Allow-Origin", "*");
-      return res.end(JSON.stringify({ available }));
-    } catch (_err) {
-      res.statusCode = 200;
-      res.setHeader("Content-Type", "application/json");
-      res.setHeader("Access-Control-Allow-Origin", "*");
-      return res.end(JSON.stringify({ available: false }));
-    }
-  }
-
-  const audioMatch = pathname.match(/^\/api\/yt-audio\/([^/]+)/);
-  if (audioMatch) {
-    try {
-      const { fetchAudioBuffer } = await import("./youtubeAudioApi.mjs");
-      const { buffer, mimeType } = await fetchAudioBuffer(audioMatch[1]);
-      res.statusCode = 200;
-      res.setHeader("Content-Type", mimeType);
-      res.setHeader("Access-Control-Allow-Origin", "*");
-      res.setHeader("Cache-Control", "no-store");
-      res.setHeader("Content-Length", buffer.length);
-      return res.end(buffer);
-    } catch (_err) {
-      res.statusCode = 502;
-      res.setHeader("Content-Type", "application/json");
-      return res.end(JSON.stringify({ error: "Audio stream unavailable" }));
-    }
-  }
-
-  const mediaCheckMatch = pathname.match(/^\/api\/yt-media-check\/([^/]+)/);
-  if (mediaCheckMatch) {
-    try {
-      const { isAudioStreamAvailable } = await import("./youtubeAudioApi.mjs");
-      const available = await isAudioStreamAvailable(mediaCheckMatch[1]);
-      res.statusCode = 200;
-      res.setHeader("Content-Type", "application/json");
-      res.setHeader("Access-Control-Allow-Origin", "*");
-      return res.end(JSON.stringify({ available }));
-    } catch (_err) {
-      res.statusCode = 200;
-      res.setHeader("Content-Type", "application/json");
-      res.setHeader("Access-Control-Allow-Origin", "*");
-      return res.end(JSON.stringify({ available: false }));
-    }
-  }
-
-  const mediaMatch = pathname.match(/^\/api\/yt-media\/([^/]+)/);
-  if (mediaMatch) {
-    try {
-      const { fetchMediaBuffer } = await import("./youtubeAudioApi.mjs");
-      const buffer = await fetchMediaBuffer(mediaMatch[1]);
-      res.statusCode = 200;
-      res.setHeader("Content-Type", "video/mp4");
-      res.setHeader("Access-Control-Allow-Origin", "*");
-      res.setHeader("Cache-Control", "no-store");
-      res.setHeader("Content-Length", buffer.length);
-      return res.end(buffer);
-    } catch (_err) {
-      res.statusCode = 502;
-      res.setHeader("Content-Type", "application/json");
-      return res.end(JSON.stringify({ error: "Media stream unavailable" }));
-    }
-  }
-
-  return next();
-}
-
 function userMarkdownSetup(md) {
   md.use(langPlugin);
   md.use(imageViewerPlugin);
@@ -132,29 +56,18 @@ function userEleventySetup(eleventyConfig) {
     clearNoteCardIndex();
   });
 
-  eleventyConfig.addTransform("youtube-visualizer", function (content) {
-    if (!isMarkdownPage(this.page.inputPath)) {
-      return content;
-    }
-    const parsed = parse(content);
-    upgradeYouTubeEmbeds(parsed);
-    return parsed.toString();
-  });
-
-  eleventyConfig.addTransform("playlist-embeds", function (content) {
-    if (!isMarkdownPage(this.page.inputPath)) {
-      return content;
-    }
-    const parsed = parse(content);
-    upgradePlaylistEmbeds(parsed);
-    return parsed.toString();
-  });
-
-  eleventyConfig.addTransform("strip-leading-card-image", function (content) {
+  // These three steps used to be separate transforms, each doing its own full
+  // HTML parse and re-serialize of every markdown page. They run in the same
+  // order on a single parsed tree here so each page is parsed once instead of
+  // three times. Folding them together is safe because none of the steps depend
+  // on the serialized output of the others, only on the shared DOM.
+  eleventyConfig.addTransform("content-embeds", function (content) {
     if (!isMarkdownPage(this.page && this.page.inputPath)) {
       return content;
     }
     const parsed = parse(content);
+    upgradeYouTubeEmbeds(parsed);
+    upgradePlaylistEmbeds(parsed);
     stripLeadingCardImage(parsed);
     return parsed.toString();
   });
@@ -196,10 +109,6 @@ function userEleventySetup(eleventyConfig) {
 
   eleventyConfig.addCollection("portfolio", function (collectionApi) {
     return collectionApi.getFilteredByTag("note").filter((item) => isPortfolioNote(item));
-  });
-
-  eleventyConfig.setServerOptions({
-    middleware: [ytAudioApiMiddleware],
   });
 }
 exports.userMarkdownSetup = userMarkdownSetup;

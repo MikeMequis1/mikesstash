@@ -1,4 +1,5 @@
-<a class="view-toggle-btn" href="{{ viewToggle.href }}" title="{{ viewToggle.labelPt }}">
+{% set viewToggleLabel = viewToggle.labelEn if meta.mainLanguage == "en" else viewToggle.labelPt %}
+<a class="view-toggle-btn" href="{{ viewToggle.href }}" title="{{ viewToggleLabel }}">
   <span class="view-toggle-emoji" aria-hidden="true">{{ viewToggle.emoji }}</span>
-  <span class="view-toggle-a11y" data-title-pt="{{ viewToggle.labelPt }}" data-title-en="{{ viewToggle.labelEn }}">{{ viewToggle.labelPt }}</span>
+  <span class="view-toggle-a11y" data-title-pt="{{ viewToggle.labelPt }}" data-title-en="{{ viewToggle.labelEn }}">{{ viewToggleLabel }}</span>
 </a>

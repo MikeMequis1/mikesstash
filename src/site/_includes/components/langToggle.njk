@@ -2,10 +2,10 @@
   type="button"
   id="lang-toggle"
   class="lang-toggle-btn"
-  data-lang="pt"
+  data-lang="{{ meta.mainLanguage }}"
   onclick="toggleLang()"
-  aria-label="Switch to English"
-  title="Switch language">
+  aria-label="{% if meta.mainLanguage == 'en' %}Mudar para Português{% else %}Switch to English{% endif %}"
+  title="{% if meta.mainLanguage == 'en' %}English{% else %}Português{% endif %}">
   <span class="lang-label lang-label-pt" aria-hidden="true">PT</span>
   <span class="lang-label lang-label-en" aria-hidden="true">EN</span>
 </button>

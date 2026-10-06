@@ -7,15 +7,15 @@
 <a
   class="resume-btn"
   id="resume-link"
-  href="/pdf/Resume_Marcelo_Medeiros_PT.pdf"
+  href="{% if meta.mainLanguage == 'en' %}/pdf/Resume_Marcelo_Medeiros_EN.pdf{% else %}/pdf/Resume_Marcelo_Medeiros_PT.pdf{% endif %}"
   data-href-pt="/pdf/Resume_Marcelo_Medeiros_PT.pdf"
   data-href-en="/pdf/Resume_Marcelo_Medeiros_EN.pdf"
   data-label-pt="Baixar currículo"
   data-label-en="Download résumé"
   target="_blank"
   rel="noopener"
-  aria-label="Baixar currículo"
-  title="Baixar currículo">
+  aria-label="{% if meta.mainLanguage == 'en' %}Download résumé{% else %}Baixar currículo{% endif %}"
+  title="{% if meta.mainLanguage == 'en' %}Download résumé{% else %}Baixar currículo{% endif %}">
   <i data-lucide="download" class="resume-icon" aria-hidden="true"></i>
 </a>
 <script>

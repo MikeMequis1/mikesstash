@@ -1,7 +1,8 @@
 <script>
 (function () {
   var stored = localStorage.getItem("dg-lang");
-  var lang = stored === "en" || stored === "pt" ? stored : "pt";
+  var fallback = "{{ 'en' if meta.mainLanguage == 'en' else 'pt' }}";
+  var lang = stored === "en" || stored === "pt" ? stored : fallback;
   document.body.classList.remove("lang-pt", "lang-en");
   document.body.classList.add("lang-" + lang);
   document.documentElement.setAttribute("lang", lang);
