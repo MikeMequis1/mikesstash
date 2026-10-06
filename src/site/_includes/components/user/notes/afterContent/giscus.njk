@@ -8,23 +8,6 @@
   aria-labelledby="comments-heading">
   <h2 id="comments-heading" data-title-pt="Comentários" data-title-en="Comments">{% if meta.mainLanguage == "en" %}Comments{% else %}Comentários{% endif %}</h2>
   <div class="giscus"></div>
-  <script
-    src="https://giscus.app/client.js"
-    data-repo="{{ meta.giscus.repo }}"
-    data-repo-id="{{ meta.giscus.repoId }}"
-    data-category="{{ meta.giscus.category }}"
-    data-category-id="{{ meta.giscus.categoryId }}"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="top"
-    data-theme="{{ meta.giscus.theme }}"
-    data-lang="{{ meta.mainLanguage }}"
-    data-loading="lazy"
-    crossorigin="anonymous"
-    async>
-  </script>
   <script>
     (function () {
       var comments = document.querySelector(".comments");
@@ -41,18 +24,24 @@
         return defaultThemeId;
       }
 
+      function currentLang() {
+        return document.body.classList.contains("lang-en") ? "en" : "pt";
+      }
+
+      function giscusThemeFor(themeId) {
+        for (var i = 0; i < themes.length; i++) {
+          if (themes[i].id === themeId) {
+            return themes[i].giscusTheme || comments.dataset.giscusDarkTheme;
+          }
+        }
+        return comments.dataset.giscusDarkTheme;
+      }
+
       window.updateGiscusTheme = function (theme) {
         var frame = comments.querySelector("iframe.giscus-frame");
         if (!frame || !frame.contentWindow) return;
-        var match = null;
-        for (var i = 0; i < themes.length; i++) {
-          if (themes[i].id === theme) { match = themes[i]; break; }
-        }
-        var giscusTheme =
-          (match && match.giscusTheme) ||
-          comments.dataset.giscusDarkTheme;
         frame.contentWindow.postMessage(
-          { giscus: { setConfig: { theme: giscusTheme } } },
+          { giscus: { setConfig: { theme: giscusThemeFor(theme) } } },
           "https://giscus.app"
         );
       };
@@ -65,10 +54,6 @@
           "https://giscus.app"
         );
       };
-
-      function currentLang() {
-        return document.body.classList.contains("lang-en") ? "en" : "pt";
-      }
 
       function bindThemeSync() {
         var frame = comments.querySelector("iframe.giscus-frame");
@@ -85,6 +70,26 @@
         window.updateGiscusLang(currentLang());
         return true;
       }
+
+      // Load giscus with the active (stored) theme and language so the first
+      // render matches the page instead of the server-rendered .env defaults.
+      var loader = document.createElement("script");
+      loader.src = "https://giscus.app/client.js";
+      loader.setAttribute("data-repo", "{{ meta.giscus.repo }}");
+      loader.setAttribute("data-repo-id", "{{ meta.giscus.repoId }}");
+      loader.setAttribute("data-category", "{{ meta.giscus.category }}");
+      loader.setAttribute("data-category-id", "{{ meta.giscus.categoryId }}");
+      loader.setAttribute("data-mapping", "pathname");
+      loader.setAttribute("data-strict", "0");
+      loader.setAttribute("data-reactions-enabled", "1");
+      loader.setAttribute("data-emit-metadata", "0");
+      loader.setAttribute("data-input-position", "top");
+      loader.setAttribute("data-theme", giscusThemeFor(currentTheme()));
+      loader.setAttribute("data-lang", currentLang());
+      loader.setAttribute("data-loading", "lazy");
+      loader.setAttribute("crossorigin", "anonymous");
+      loader.async = true;
+      comments.appendChild(loader);
 
       if (!bindThemeSync()) {
         var observer = new MutationObserver(function () {
