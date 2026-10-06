@@ -98,11 +98,11 @@ Não se preocupe, as ilustrações seguintes não terão muralhas de texto como 
 
 The **first official day** I started my drawing classes. Imagine someone eager to start the classes and who thought he would do really well.
 
->"Well, I drew **a lot** in elementary and high school, I'll breeze through these classes. **I don't know anything about the theory and logic behind it**, but I'll learn in no time with what I have so far."
+>"Well, I drew **a lot** in elementary and high school, I'll breeze through these classes. **I don't know anything about the theory and logic behind it**, but I'll pick it up in no time with what I've got."
 
-I arrived at the trial class and they do the introductory checkup, showing how you draw today and your linework, among other things...
+I arrived at the trial class, and they did the introductory assessment, showing how you draw today and your linework, among other things...
 
-I had **nothing** to show, and the drawings I had were about **6 years old or more** (The last drawing I had made was really from high school... Back in **2020**).
+I had **nothing** to show, and the drawings I had were about **6 years old or more** (The last drawing I had made was actually from high school... Back in **2020**).
 
 ...But even so, I was determined.
 Did I start from absolute zero?
@@ -117,7 +117,7 @@ The result was that *alien* head below (the middle one is the teacher's, just to
 
 ![3Desenho.jpg](/img/user/img/Drawings/3Desenho.jpg)
 
-... Yeah, you can see I still had **a lot** to evolve.
+... Yeah, you can see I still had **a long way to go**.
 
 ---
 
@@ -137,7 +137,7 @@ F$%&NG.
 
 **CIRCLE**.
 
-At that moment, I panicked internally. For three hours, I was hammering down the same pessimistic thought:
+At that moment, I panicked internally. For three hours, I kept obsessing over the same pessimistic thought:
 
 >"How is it possible that I, a computer engineer, who got good grades in **technical drawing**, wasn't able to draw a simple **CIRCLE**?! Something is clearly wrong..."
 
@@ -153,17 +153,17 @@ I know what you're thinking:
 
 **No**. All that torture, that madness... It was the result of me being **frustrated** with myself. It was precisely a barrier that needed to be overcome. Not in the drawing class, but in my life **as a whole**.
 
-At that moment, I projected myself as the student and the teacher **at the same time**. It was my **perfectionism** hurting more than helping. It was the perfectionism and **insecurity** that, if I didn't start the right way, if nothing I did was millimetrically and methodically calculated, **even the effort itself wasn't worth it**.
+At that moment, I projected myself as the student and the teacher **at the same time**. It was my **perfectionism** hurting more than helping. It was the perfectionism and **insecurity**: the fear that if I didn't start the right way, if nothing I did was calculated down to the millimeter and methodically, **even the effort itself wasn't worth it**.
 
 In that scenario, there was no pressure coming from my classmates and teachers. There was no stress. There was **nothing** actively causing that torture. The teacher was **willing to teach**, relaxed, laughed and joked along with the students, gave all the **freedom** and time for the students to draw.
 
-The teacher himself **noticed** how I was. I had spent an hour drawing circles and circles on a sheet nonstop. He said:
+The teacher himself **noticed** how I was. I had been drawing circles and circles on a sheet nonstop for an hour. He said:
 
 >"Dude, don't get stuck on the circle or on making it perfect. You're still in the **sketch**, there's no point in perfecting it now. You start and adjust as you draw..."
 
 So, I stopped and did exactly that. I borrowed a **ruler** and a **compass** and made a base structure of the face following the step-by-step guidelines.
 
-Finally, the result was what you're seeing below: the **Ice Guy from Temu**. The Incredibles' egg-head. And on top of that with crooked reference lines (I noticed that while writing).
+Finally, the result was what you're seeing below: the **Frozone from Temu**. The Incredibles' egg-head. And on top of that, with crooked reference lines (I noticed that while writing).
 
 ![1Desenho.jpg](/img/user/img/Drawings/1Desenho.jpg)
 
@@ -173,7 +173,7 @@ Finally, the result was what you're seeing below: the **Ice Guy from Temu**. The
 
 Far from perfect and even further from an anime character, but it was the **beginning** of my overcoming. And also the beginning of another essential factor in drawing: **letting yourself go**. Freeing yourself from **perfectionism**. Freeing yourself from **worries about the final result**. Just... Drawing. Of course, along with a goal, with a methodology, but **not letting yourself get stuck**. Developing conviction little by little, and **allowing yourself to make mistakes**.
 
-Drawing is like **learning an instrument or a new language**. Besides discovering and studying, it's essential to practice in your **daily basis**. It's producing, no matter how small or bad it may be, it's going forward. It's forgiving yourself and trying again.
+Drawing is like **learning an instrument or a new language**. Besides discovering and studying, it's essential to practice on a **daily basis**. It's producing, no matter how small or bad it may be, it's moving forward. It's forgiving yourself and trying again.
 
 ---
 

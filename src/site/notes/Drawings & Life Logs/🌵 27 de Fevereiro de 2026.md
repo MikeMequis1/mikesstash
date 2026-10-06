@@ -51,7 +51,7 @@ E a evolução tá bem notória.
 
 In the previous drawing, I wasn't convinced.
 
->"It's not possible... I couldn't draw a rocker in anime style?! I'm going to do the drawing **again**, even if it's by sheer **hatred**!"
+>"It's not possible... I couldn't draw a rocker in anime style?! I'm going to do the drawing **again**, even if it's out of sheer **spite**!"
 
 I start normally with the base structure of the face, the eyes, the hair...
 
@@ -73,7 +73,7 @@ And:
 
 >"This is really hard... I'll try to do it, even **knowing it will be bad**. I'll also **ask for help** to redo it and get tips on how to do it."
 
-Both thoughts involve being aware of the information that is difficult. The difference lies in the approach taken from that information.
+Both thoughts involve being aware of how difficult it is. The difference lies in the approach you take from there.
 
 ![11Desenho.jpg](/img/user/img/Drawings/11Desenho.jpg)
 

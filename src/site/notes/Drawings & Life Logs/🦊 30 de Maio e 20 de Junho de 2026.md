@@ -50,7 +50,7 @@ When I thought it was solved, another problem appeared: the two heads were too *
 
 Finally, Lyssa's **face** also needed adjustments. Initially it was too wide, so I repositioned the eyes, nose, and mouth until I reached a more delicate and **cuter** appearance.
 
-It was a cat-and-mouse chase that seemed **endless**, overall. But I was happy with the result in the end.
+It was a cat-and-mouse chase that seemed **endless**, overall. But I was happy with the result anyway.
 
 ![28Desenho.jpg](/img/user/img/Drawings/28Desenho.jpg)
 

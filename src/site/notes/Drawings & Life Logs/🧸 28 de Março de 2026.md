@@ -181,7 +181,7 @@ This was a challenge that came from looking around my room, thinking about doing
 
 I picked up the first object on my desk that gave me the most inspiration to draw: my **Fidget plush**. I only thought about **doing** the drawing, not about the skills or knowledge required. I wanted to **try**, at least.
 
-It was a challenge mainly because I had **zero** knowledge of anatomy, and the only reference I had was this **Amaru** (brazillian YouTuber) video:
+It was a challenge mainly because I had **zero** knowledge of anatomy, and the only reference I had was this **Amaru** (Brazilian YouTuber) video:
 
 https://youtu.be/IWv3XiwH2GQ?si=HT-wWbge9HUHxNZR
 
@@ -191,9 +191,9 @@ The tip, provided both by the video itself and by my teachers, was to draw the b
 
 Curiously, the plush's body was made up mostly of **circles**. The rest had **rectangles** on the legs, and **triangles** on its ears.
 
-The biggest difficulty were the **wings**: even though they were made of **curves**, the problem was their proportion and the position of each of the "tips" relative to the body. That last part I had to **redo** about three times...
+The biggest difficulty was the **wings**: even though they were made of **curves**, the problem was their proportion and the position of each of the "tips" relative to the body. That last part I had to **redo** about three times...
 
-Finally, the chest fur didn't turn out as I expected. I imagined that, drawing it this way, I would represent the idea of a **tuft** full of fine hairs, but since they were too **linear** and **"tidy"**, it caused the opposite effect. It looks like the hair that bees have, to be honest...
+Finally, the chest fur didn't turn out as I expected. I imagined that, drawing it this way, I would represent the idea of a **tuft** full of fine hairs, but since they were too **linear** and **"tidy"**, it caused the opposite effect. It looks like the fuzz bees have, to be honest...
 
 ![20Desenho.jpg](/img/user/img/Drawings/20Desenho.jpg)
 
@@ -214,17 +214,17 @@ Alright, that's it about the drawing. You can return to the listing with the but
 
 Alright, alright.
 
-Unlike the others, the story of this plush started back in **2012**, when I got the Xbox 360, right when the novelty was the **Games with Gold** subscription.
+Unlike the others, the story of this plush started back in **2012**, when I got the Xbox 360, right when the hot new thing was the **Games with Gold** subscription.
 
 One of the first games to come to the monthly lineup was [Dust: An Elysian Tail](https://pt.wikipedia.org/wiki/Dust:_An_Elysian_Tail), and, to be honest, it didn't seem convincing just looking at the **screenshots** on the *Xbox* store page. And to this day it remains that way across the different ports (having exactly the **same** images, to add insult to injury...).
 
-But... I'm glad I didn't let myself be put off back then just by those prints. Before, at street vendor tents, the **"quality metric"** I followed was the game covers. I look at the [original Shadow of the Colossus cover](https://upload.wikimedia.org/wikipedia/pt/thumb/6/66/ShadowOfTheColossusGH.jpg/330px-ShadowOfTheColossusGH.jpg) at the kiosk and "see" a horror game, all dark and gloomy. [Madagascar](https://m.media-amazon.com/images/I/713ky8p7pvL._AC_UF1000,1000_QL80_.jpg) for PS2? Now that, that one's for me.
+But... I'm glad I didn't judge it back then just by those prints. Before, at street vendor tents, the **"quality metric"** I followed was the game covers. I look at the [original Shadow of the Colossus cover](https://upload.wikimedia.org/wikipedia/pt/thumb/6/66/ShadowOfTheColossusGH.jpg/330px-ShadowOfTheColossusGH.jpg) at the kiosk and "see" a horror game, all dark and gloomy. [Madagascar](https://m.media-amazon.com/images/I/713ky8p7pvL._AC_UF1000,1000_QL80_.jpg) for PS2? Now that, that one's for me.
 
 >[!tip] **IRONY WARNING**: I really like Shadow of the Colossus.
 >
 >... And the Madagascar game too.
 
-But, unlike taking advantage of the brazillian **3 for 10** deal, here you didn't need to pay* to test the game. If you didn't like the game... You could just it afterwards.
+But, unlike taking advantage of the Brazilian **3 for 10®** deal, here you didn't need to pay* to test the game. If you didn't like the game... You could just delete it afterwards.
 
 >[!question] *Of course, you get the game "for free" as long as you **pay** for the subscription.
 
@@ -232,7 +232,7 @@ Nowadays... it's my **favorite** indie game. Iconic characters, a fantastic soun
 
 ... Ok, it wasn't exactly just one person involved. I'd say **80%** of the game was made by one person.
 
->"But what about the plush, man? So far you've talked about *Xbox*, about the corner-store vendor's Three for Ten, but nothing about this plush."
+>"But what about the plush, man? So far you've talked about *Xbox*, about the Three-for-Ten from Joe's corner store, but nothing about this plush."
 
 Chill out, dude, I was just about to talk about exactly that.
 
@@ -242,9 +242,9 @@ So, considering how much I liked that game back when I was young, I consequently
 
 Until I found this [**DeviantArt** post](https://www.deviantart.com/magnastorm/art/Fidget-399156452).
 
-I remember to this day the jumps of joy I had when I saw it. It was as if a dream had come true.
+I still remember the jumps for joy I did when I saw it. It was as if a dream had come true.
 
-... But a challenge came. The belief that "plushies" were a **girl thing** or a **childish** thing (more of a child than I already was, I say). I imagined the conversation:
+... But a challenge came. The belief that "plushies" were a **girl thing** or a **childish** thing (more childish than I already was, I mean). I imagined the conversation:
 
 >- "Mom, Dad, I want this plush here."
 >- "Son, aren't you a bit too old for that? Don't you prefer the [*Hot Wheels* Attacking Shark Escape Playset](https://www.amazon.com/Hot-Wheels-HDP06-Vehicle-Multicolour/dp/B09QLJB8QZ)? The most **incredible** and **muscular** toy that exists?"
@@ -265,11 +265,11 @@ The second challenge.
 
 The [official site](https://www.noogy.com/) has absolutely **nothing** mentioning official products.
 
-What was out there were different *DeviantArt* posts from fans creating their own plushies of the character, but nothing sold on **brazillian grounds**.
+What was out there were different *DeviantArt* posts from fans creating their own plushies of the character, but nothing sold on **Brazilian soil**.
 
 >Description of the *DeviantArt* post, by the way: ![Luto.png](/img/user/img/Drawings/Luto.png)
 
-At this moment, I had a **hiatus** in the search for the plush. I stopped exactly at this point as a kid.
+At this moment, I took a **hiatus** from the search for the plush. I stopped exactly at this point as a kid.
 
 The years went by. I hadn't forgotten the plush, but I **focused** on more important things at that time: high school, college, work...
 
@@ -297,13 +297,13 @@ At that moment, I discovered the existence of **custom handmade plushies** on th
 
 If I can't buy it... Why not ask someone to **make** it?
 
-Oh, right! I went after it and found the person who **made the figure** for Core, [Ms. Zuzza](https://github.com/SrtaZuzza).
+Oh, right! I did some digging and found the person who **made the figure** for Core, [Ms. Zuzza](https://github.com/SrtaZuzza).
 
 ... But she **no longer works** with custom figures.
 
-After a while, I finally managed to find a shop that makes custom plushies and delivers to your home. I send her exactly the image from the *DeviantArt* post as a reference.
+After a while, I finally managed to find a shop that makes custom plushies and delivers to your home. I sent her exactly the image from the *DeviantArt* post as a reference.
 
->The artisan accepts and the price she charges is around **three hundred reais** (aprox. **sixty dollars**).
+>The artisan accepted, and the price she charged was around **three hundred reais** (approx. **sixty dollars**).
 >![Tranquilo.png](/img/user/img/Tranquilo.png)
 
 > The time to produce and ship it was **4 months**.
@@ -314,17 +314,17 @@ After a while, I finally managed to find a shop that makes custom plushies and d
 
 After **a month** of delay...
 
-It arrives at my house, in the middle of a work **meeting**.
+It arrived at my house, right in the middle of a work **meeting**.
 
-And a bonus **red gummy stick pack**.
+And a red gummy stick thrown in for free.
 
 ![Fidget.jpg](/img/user/img/Drawings/Fidget.jpg)
 
 ![Fidget.gif](/img/user/img/Drawings/Fidget.gif)
 
-I mean... The artisan had already sent photos and videos of the result before shipping, but wow... The quality was almost like of an **official product**.
+I mean... The artisan had already sent photos and videos of the result before shipping, but wow... The quality was almost on par with an **official product**.
 
-Highly detailed, with wings and a tail, and everything. Holding the plush, it even had that **quality product** stuffing weight. Not that light weight of a Sonic plush you buy on the street.
+Highly detailed, with wings and a tail, and everything. Holding the plush, it even had the stuffing weight of a **quality product**. Not that light weight of a Sonic plush you buy on the street.
 
 At that moment, the bitter taste that child had carried **disappeared**.
 

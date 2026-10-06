@@ -18,7 +18,7 @@ Por trás de cada desenho, por cada escolha... Existe um motivo e uma história.
 
 # 🎨 Drawings & Life Logs
 
-Behind each drawing, behind each choice... There's a reason and a story. Make yourself comfortable and view and read my progress on my drawing lessons.
+Behind each drawing, behind each choice... There's a reason and a story. Feel free to look around and read about my progress in my drawing lessons.
 
 :::
 

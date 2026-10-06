@@ -35,9 +35,9 @@ Como estava no começo, o nervoso ainda estava em tona, então seguir esses cons
 
 :::lang en
 
-The first character I made right after the Egg Head, the heroine from **My Hero Academia**. The reference sheet had 6 characters, and right away, my instinct was to draw the faces **at the same size**. However, the advice from the teacher and another classmate was to draw **bigger**, almost the size of the sheet (I ended up drawing too big, and underestimated the size of her hair...). This favors two drawing practices:
-- Using more of the **wrist and arm movement** across the sheet than the fingers of the hand;
-- Having an overall panorama of the **face proportions** and the position of its elements, like eyes and mouth.
+The first character I made right after the Egg Head, the heroine from **My Hero Academia**. The reference sheet had 6 characters, and right away, my instinct was to draw the faces **at the same size**. However, the advice from the teacher and another classmate was to draw **bigger**, almost the size of the sheet (I ended up drawing too big, and underestimated the size of her hair...). This encourages two drawing practices:
+- Using more of the **wrist and arm movement** across the sheet than your fingers;
+- Having an overall sense of the **face proportions** and the position of its elements, like eyes and mouth.
 
 In this character's case, being a female character (softer and **rounder** features), whole-arm movements are essential here. It's easier to draw a circle with an arc motion using the arm than with the hand.
 
@@ -45,11 +45,11 @@ Curiously, one of the tips given in this video *(7:28)* that I found at the time
 
 https://youtu.be/r7A6MSOiQMs?si=FiKnqMtJbHfk1G8c&t=448
 
-Ah, also important, the **way of holding** the pencil/mechanical pencil also helps:
-- Holding at the **middle** or **edge**: lighter and weaker sketching and strokes;
-- Holding at the **tip**: details and finishing of the drawing.
+Oh, and also important, the **way of holding** the pencil/mechanical pencil also helps:
+- Holding it at the **middle** or **edge**: lighter and weaker sketching and strokes;
+- Holding it at the **tip**: details and finishing touches.
 
-Since I was at the beginning, the nerves were still running high, so following these tips was harder on practice.
+Since I was at the beginning, the nerves were still running high, so following these tips was harder in practice.
 
 ![4Desenho.jpg](/img/user/img/Drawings/4Desenho.jpg)
 

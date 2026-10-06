@@ -33,13 +33,13 @@ Antes que pergunte: **não**, a caveira não fui eu que fiz. Ela está profissio
 
 Next challenge: **Three-quarter profile**. Now it's about dividing the "pizza" into four vertical lines instead of two, illustrating a face looking **45° to the left or right**. And also leaving the dieter hungry.
 
-It's precisely when the student develops the notion of **perspective** and **three-dimensionality** in drawing. It was also here that the representation of the **human skull** was initially introduced (to this day I have some difficulty, mainly the area between the **jaw** and the **cheek** of the face).
+It's precisely when the student develops the notion of **perspective** and **three-dimensionality** in drawing. It was also here that the representation of the **human skull** was first introduced (to this day I have some difficulty, mainly the area between the **jaw** and the **cheekbone** of the face).
 
 ![12Desenho.jpg](/img/user/img/Drawings/12Desenho.jpg)
 
 In my drawing, you can see that I copied just a little bit, a teeny tiny bit, of the teacher's **reference**.
 
-Here also was my first attempt at making **messy** short hair, but which, in the end, turned into **spiky** hair. The right way would be to illustrate the strands in different directions, but all toward the **origin of the hair**, which wasn't the case.
+This was also my first attempt at making **messy** short hair, but which, in the end, turned into **spiky** hair. The correct way would be to illustrate the strands in different directions, but all toward the **origin of the hair**, which wasn't the case.
 
 ![13Desenho.jpg](/img/user/img/Drawings/13Desenho.jpg)
 
@@ -47,7 +47,7 @@ Here also was my first attempt at making **messy** short hair, but which, in the
 >*Drawing time - approx. 2h30*
 >*Reference - Teacher's didactic example*
 
-Before you ask: **no**, I didn't make the skull in the right. It's too professional.
+Before you ask: **no**, I didn't make the skull on the right. It's too professional.
 
 ---
 *Written on July 7, 2026*

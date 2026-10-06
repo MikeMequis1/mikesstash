@@ -39,7 +39,7 @@ The old improvised collar gave way to a **bandana**, now with its **print** and 
 
 But wow... that hat was a lot of work. Mainly the **brim**, seen from the side.
 
-Until then, I still had trouble visualizing objects in a **three-dimensional** way while sketching. Elements such the brim, the embroidery, and the different parts of the hat seemed "**mixed together**". Once that structure became clearer, applying the **shading** was more practical.
+Until then, I still had trouble visualizing objects in a **three-dimensional** way while sketching. Elements such as the brim, the embroidery, and the different parts of the hat seemed "**mixed together**". Once that structure became clearer, applying the **shading** became easier.
 
 Another factor that made it harder was keeping the **heights** of the elements consistent across the two perspectives.
 
@@ -49,9 +49,9 @@ Another factor that made it harder was keeping the **heights** of the elements c
 >*Drawing time - 3h*
 >*Reference: First version of the drawing, in [[Drawings & Life Logs/🌵 27 de Fevereiro de 2026\|February 27, 2026]]*
 
-Personally, what I most personally like in this drawing is the **quality** difference compared to the first version. It was a moment when I could look at both versions side by side and notice how much I've **evolved** since the first class.
+Personally, what I like most about this drawing is the difference in **quality** compared to the first version. It was a moment when I could look at both versions side by side and notice how much I've **evolved** since the first class.
 
-It was also very satisfying to realize that this result came **without using any references**. Of course, carrying a detail here and another there from previous drawings, but it was the first time I felt capable of creating a **new** character from scratch.
+It was also very satisfying to realize that this result came **without using any references**. Of course, borrowing a detail here and there from previous drawings, but it was the first time I felt capable of creating a **new** character from scratch.
 
 ---
 *Written on July 13, 2026*

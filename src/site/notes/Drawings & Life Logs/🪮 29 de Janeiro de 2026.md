@@ -43,7 +43,7 @@ Esse acabei desistindo no meio do caminho, principalmente por conta do **capacet
 
 Another character whose face size I underestimated, **Katsuki Bakugo** from *My Hero Academia*. The hair took a century to make (not just because of its size but because of the number of strands and its proportion relative to the face) and I also had to **redraw** different parts following the proportions.
 
-This rework taught me another **interesting** aspect of drawing: when you pay attention to **proportions** and the **references** between one line and another, you can use **spacings** and **alignments** to help with the **position** of the elements. There's no universal manner, you "create conventions" on your own as you draw, like:
+This rework taught me another **interesting** aspect of drawing: when you pay attention to **proportions** and the **references** between one line and another, you can use **spacings** and **alignments** to help with the **position** of the elements. There's no universal way; you just "create your own conventions" as you draw, like:
 
 > "This strand is on the same straight line as this part of the eye."
 > "The lower part of the ear is aligned with the middle of the nose."

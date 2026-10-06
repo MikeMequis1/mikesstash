@@ -62,7 +62,7 @@ You can check the corrections in the teachers' sketches, in the top-left and bot
 
 About the skull drawing, I had an interesting conversation with them. We discovered that the reference I was using was itself **anatomically disproportionate**, which made it hard to try to build the structure with the ***Loomis*** method.
 
-It was a very informative conversation and, in the end, they recommended me this [playlist](https://youtube.com/playlist?list=PL39135B8D190B7C97&si=ci334Xx-4H8HIy9) to complement my studies.
+It was a very informative conversation and, in the end, they recommended this [playlist](https://youtube.com/playlist?list=PL39135B8D190B7C97&si=ci334Xx-4H8HIy9) to me to complement my studies.
 
 >First video:
 >https://youtu.be/1EPNYWeEf1U?si=uqRQszpK05gSFyFR

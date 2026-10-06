@@ -32,7 +32,7 @@ This one had a mix of both, containing the more **rigid and straight** lines of 
 >*Drawing time - 3h*
 >*Reference: Megumi Fushiguro, from Jujutsu Kaisen*
 
-You can really notice what the lack of **shading** does to a drawing, right?
+You can really tell what the lack of **shading** does to a drawing, right?
 I have the impression that the neck is fused with the chin, look how weird it turned out...
 
 ---

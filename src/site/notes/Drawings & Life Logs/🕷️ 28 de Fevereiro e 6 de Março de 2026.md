@@ -39,11 +39,11 @@ O meu pulso **dói** só de olhar para esse cabelo. Eu lembro que foi cerca de *
 
 :::lang en
 
-Right after copying the teacher's reference, he didn't want to go easy.
+Right after copying the teacher's reference, he wasn't going to let it slide.
 
->"Now do a face in **seven-eighths profile**. No pain, no gain. It has to be this way to actually learn something."
+>"Now do a face in **seven-eighths profile**. No pain, no gain. That's just how it is."
 
-Ok, those weren't the words **exactly**.
+Ok, those weren't his words **exactly**.
 
 But the idea, in the end, was precisely this. It's about continuing to **challenge yourself**, finding new ways to represent perspectives on paper. And going from a three-quarter profile to seven-eighths was one of them.
 
@@ -59,10 +59,10 @@ And now you know why. The challenge wasn't drawing the profile. It was **colorin
 
 It wasn't a challenge of skill. It was of **endurance**.
 
-My wrist **hurts** just from looking at that hair. I remember it took about **half an hour** working on it.
+My wrist **hurts** just from looking at that hair. I remember it took about **half an hour** just laying down the graphite.
 
 >... I think the teacher wanted **revenge** for copying his reference.
->But it's just a **suspicion**, I have no evidences over this statement.
+>But it's just a **suspicion**. I have absolutely no evidence to back it up.
 >![tenor.gif](/img/user/img/tenor.gif)
 
 ---

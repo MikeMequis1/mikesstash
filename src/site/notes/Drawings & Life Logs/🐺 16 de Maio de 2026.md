@@ -29,7 +29,7 @@ Vou me segurar para não contar **tudo** agora. Ainda pretendo usar os personage
 
 This was a **half-profile** exercise that I thought of doing based on a previous drawing, and I decided to draw Oliver again.
 
-One detail that caught my attention during the sketch was the **ears**. They looked strange, but I couldn't say exactly why. While finishing the drawing, the teacher suggested adding details of the **fur** and the **inside** of the ear. I only managed to see the difference after making the correction (And also after struggling not to get confused with the line just to the right).
+One detail that caught my attention during the sketch was the **ears**. They looked strange, but I couldn't say exactly why. While finishing the drawing, the teacher suggested adding details of the **fur** and the **inside** of the ear. I only managed to see the difference after making the correction (and also after struggling not to get confused with the line just to the right).
 
 ![25Desenho.jpg](/img/user/img/Drawings/25Desenho.jpg)
 

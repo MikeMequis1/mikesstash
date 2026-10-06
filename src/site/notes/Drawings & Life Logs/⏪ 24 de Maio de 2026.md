@@ -51,7 +51,7 @@ On a Sunday afternoon, I wanted to do something different with my girlfriend. In
 
 > "What if we **drew** something together?"
 
-So I grabbed a basic reference from the internet and went on explaining, little by little, the same step-by-step I learned in the first class, following a logic similar to what the teacher taught me.
+So I grabbed a basic reference from the internet and started explaining, little by little, the same step-by-step I learned in the first class, following a logic similar to what the teacher taught me.
 
 ![27Desenho.jpg](/img/user/img/Drawings/27Desenho.jpg)
 

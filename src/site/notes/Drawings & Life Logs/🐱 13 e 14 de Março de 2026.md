@@ -120,7 +120,7 @@ I know what you're thinking:
 
 >"Wow, you made **three** drawings in **one class**?!"
 
-... No. The first drawing was finished at **midnight**, a day before the class. **Sleep** spoke louder and made me record the wrong date. The other two, yes, were made during the class.
+... No. The first drawing was finished at **midnight**, a day before the class. **Sleep** got the better of me and made me record the wrong date. The other two, yes, were made during the class.
 
 I have a lot to say here, so put on your **reading glasses**.
 
@@ -137,7 +137,7 @@ On the other, we see the **madness**. The character who bathes in the blood of e
 
 *The soul that enchants the crowd.  
 The insanity that delights in its own blood.
-In common, they share the deadly smile that permeates the darkness.
+What they have in common is the deadly smile that permeates the darkness.
 Until the last laugh is the only song.*
 
 ---
@@ -154,16 +154,16 @@ Yes.
 
 Remember I mentioned **perfectionism hurting more than helping** a few pages back? Well, there it is. Since the first drawing, I had a habit that consumed **a lot** of my development time. The reason was simple: **I still didn't separate the drawing into stages**.
 
-The sequence for developing a drawing, in simple terms, would be in the form of sequential phases:
+The process for developing a drawing, in simple terms, goes through sequential stages:
 
 ```
-Geometric shapes & Sketch -> Touches and adjustments -> Finishing.
+Geometric shapes & Sketch -> Touch-ups and adjustments -> Finishing.
 ```
 
 My sequence was this:
 
 ```
-Geometric shapes & Sketch + Touches and adjustments + Finishing.
+Geometric shapes & Sketch + Touch-ups and adjustments + Finishing.
 ```
 
 All at once, at the same time.
@@ -198,7 +198,7 @@ It was an experience that made me look at the result and say:
 
 >"Wow... Drawing is **so cool**."
 
-After that, I felt like this meme here:
+After that, I remembered this meme:
 
 https://youtu.be/ZZ5LpwO-An4
 
@@ -213,9 +213,9 @@ After Lyssa, who is a human face with cat ears, I decided to increase the diffic
 >[!tip] **Drawing 14: Oliver Reed (wolf)**
 >*Drawing time - 3h20*
 
-This one follows the direction of the narrative I developed up above, so I don't have much to comment here.
+This one follows the direction of the narrative I developed above, so I don't have much to comment here.
 
-Except the fact that the teacher looked at my drawing, then looked at me, and asked if I was a *furry*.
+Except for the fact that the teacher looked at my drawing, then looked at me, and asked if I was a *furry*.
 
 >[!info] These drawings mark an important detail: the images used as reference were **AI-generated**. At the time I did this study, I **wasn't aware** of the discussions involving the use of this kind of image in model training and its impacts on **artists**. Today I try to give preference to works published by artists or to photographs. I'll leave a page detailing this issue to keep this history **transparent** rather than erasing it or pretending it never happened, and also to inform readers about the negative impact of this material.
 

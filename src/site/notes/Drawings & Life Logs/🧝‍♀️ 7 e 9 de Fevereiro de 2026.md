@@ -23,7 +23,7 @@ Pelo menos não desenhei ela naquele [**ângulo difícil**](https://in.ign.com/f
 
 :::lang en
 
-Of the ones I've drawn to date, this is the one I consider the **most faithful** to the reference. It was a challenge **one after the other**: the hair braids, the proportion of the face and ears... But the most challenging, without a doubt, was the **eye**... Wow, those eyes I had to redraw about **three times**. It's the details around the eyeball, the "target" of the iris, keeping the left and right the same size...
+Of the ones I've drawn to date, this is the one I consider the **most faithful** to the reference. It was one challenge after another: the braids, the proportion of the face and ears... But the most challenging, without a doubt, was the **eye**... Wow, I had to redraw those eyes about **three times**. It's the details around the eyeball, the "target" of the iris, keeping the left and right eyes the same size...
 
 ![8Desenho.jpg](/img/user/img/Drawings/8Desenho.jpg)
 

@@ -25,9 +25,9 @@ Então, eu decidi experimentar fazendo diferentes **variações** do olho de esp
 
 :::lang en
 
-This was more of an **experiment** than a drawing proper during college classes. In the previous class, the teacher asked that, once they finished or moved on to the next step, students would have to **create** their own characters based on what they had learned. It's a way to **check the stroke** or the shapes that students have **adapted to** or **like to make** in their drawings.
+This was more of an **experiment** than a drawing proper during college classes. In the previous class, the teacher asked that, once they finished or moved on to the next step, students would have to **create** their own characters based on what they had learned. It's a way to **check the linework** or the shapes that students have **adapted to** or **like to use** in their drawings.
 
-In my case, I have an affinity for a **mix of straight and curved lines in drawing**, in general. But, besides checking the stroke, in this experiment I decided to focus on the eye: the way it is expressed, what it represents for the character. In [[Drawings & Life Logs/🪮 29 de Janeiro de 2026\|Nyxa]]'s drawing, I commented on this, her **"trademark"**. Personally, it's what draws the most attention and what I like most.
+In my case, I have an affinity for a **mix of straight and curved lines in drawing** in general. But, besides checking the linework, in this experiment I decided to focus on the eye: the way it is expressed, what it represents for the character. In [[Drawings & Life Logs/🪮 29 de Janeiro de 2026\|Nyxa]]'s drawing, I commented on this, her **"trademark"**. Personally, it's what draws the most attention and what I like most.
 
 So, I decided to experiment by making different **variations** of the spiral eye, analyzing which best suits the character and adding a touch of **originality**, mainly with the **circular iris** in the center.
 
