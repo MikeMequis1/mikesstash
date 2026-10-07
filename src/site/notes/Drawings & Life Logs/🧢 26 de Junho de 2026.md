@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/26-de-junho-de-2026/","title":{"pt":"🧢 26 de Junho de 2026","en":"🧢 June 26, 2026"},"dg-note-properties":{"navOrder":22,"title":{"pt":"🧢 26 de Junho de 2026","en":"🧢 June 26, 2026"}}}
 ---
 
-
 :::lang pt
 
 Queria, novamente, fazer um desenho de **observação** utilizando algum objeto da minha mesa. A ideia inicial era desenhar um pequeno **crânio** com boné e óculos de sol.
@@ -11,10 +10,35 @@ Queria, novamente, fazer um desenho de **observação** utilizando algum objeto 
 
 Já que o boné estava, em maior parte, desenhado mesmo, resolvi aproveitar e transformá-la em uma garota em perspectiva de **três quartos**, usando boné e óculos. Tornou-se um bom exercício para retomar após o período de hiato no desenho anterior.
 
+:::
+
+:::lang en
+
+Once again, I wanted to do an **observation** drawing using some object from my desk. The initial idea was to draw a small **skull** with a cap and sunglasses.
+
+... But after a while trying to draw the jaw and the volume of the skull, it just wasn't flowing. So I simply **gave up on the idea**.
+
+Since the cap was, for the most part, already drawn, I decided to take advantage of it and turn it into a girl in a **three-quarter** perspective, wearing a cap and glasses. It became a good exercise to get back into it after the hiatus period from the previous drawing.
+
+:::
+
 ![29Desenho.jpg](/img/user/img/Drawings/29Desenho.jpg)
+
+:::lang pt
 
 >[!tip] **Desenho 25: Nerdinha Contente**
 >*Tempo de desenho - aprox. 1h40*
+
+:::
+
+:::lang en
+
+>[!tip] **Drawing 25: Happy Nerd Girl**
+>*Drawing time - approx. 1h40*
+
+:::
+
+:::lang pt
 
 Depois de mostrar o desenho aos professores, apareceram dois pontos principais:
 - O formato do rosto não acompanhava a perspectiva do restante do corpo. Ombros e óculos, por exemplo, estavam vistos de frente, além da personagem ter seu rosto um pouco **rechonchudo**.
@@ -40,17 +64,6 @@ Espero que isso seja útil para os seus estudos de desenho ;)
 :::
 
 :::lang en
-
-Once again, I wanted to do an **observation** drawing using some object from my desk. The initial idea was to draw a small **skull** with a cap and sunglasses.
-
-... But after a while trying to draw the jaw and the volume of the skull, it just wasn't flowing. So I simply **gave up on the idea**.
-
-Since the cap was, for the most part, already drawn, I decided to take advantage of it and turn it into a girl in a **three-quarter** perspective, wearing a cap and glasses. It became a good exercise to get back into it after the hiatus period from the previous drawing.
-
-![29Desenho.jpg](/img/user/img/Drawings/29Desenho.jpg)
-
->[!tip] **Drawing 25: Happy Nerd Girl**
->*Drawing time - approx. 1h40*
 
 After showing the drawing to the teachers, two main points came up:
 - The shape of the face didn't follow the perspective of the rest of the body. The shoulders and glasses, for example, were seen from the front, besides the character having a somewhat **chubby** face.

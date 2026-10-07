@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/30-de-maio-e-20-de-junho-de-2026/","title":{"pt":"🦊 30 de Maio e 20 de Junho de 2026","en":"🦊 May 30 and June 20, 2026"},"dg-note-properties":{"navOrder":21,"title":{"pt":"🦊 30 de Maio e 20 de Junho de 2026","en":"🦊 May 30 and June 20, 2026"}}}
 ---
 
-
 :::lang pt
 
 Antes que o período te assuste... Não, este desenho não demorou quase um **mês** para ser feito. Nesse intervalo aconteceram alguns compromissos pessoais que interromperam o desenho. Ainda assim... ele demorou **bem mais do que deveria**.
@@ -18,21 +17,6 @@ Quando achei que estava resolvido, apareceu outro problema: as duas cabeças est
 Finalmente, o **rosto** da Lyssa também precisou de ajustes. Inicialmente ficou largo demais, então reposicionei olhos, nariz e boca até chegar em uma aparência mais delicada e **fofinha**.
 
 Foi uma corrida de gato e rato que parecia **interminável**, de forma geral. Mas fiquei contente com o resultado de qualquer forma.
-
-![28Desenho.jpg](/img/user/img/Drawings/28Desenho.jpg)
-
->[!tip] **Desenho 24: Oliver e Lyssa**
->*Tempo de desenho - 6h (3h + 3h)*
-
-Ah, é mesmo... Foi nessa aula que a pergunta do professor evoluiu de:
-> "Você é um _furry_?"
-
-para:
-> "Tá... mas você tem um _fursona_?"
-
----
-*Escrito em 15 de Julho de 2026*
-[[🎨 Drawings & Life Logs\|< Voltar]]
 
 :::
 
@@ -52,10 +36,39 @@ Finally, Lyssa's **face** also needed adjustments. Initially it was too wide, so
 
 It was a cat-and-mouse chase that seemed **endless**, overall. But I was happy with the result anyway.
 
+:::
+
 ![28Desenho.jpg](/img/user/img/Drawings/28Desenho.jpg)
+
+:::lang pt
+
+>[!tip] **Desenho 24: Oliver e Lyssa**
+>*Tempo de desenho - 6h (3h + 3h)*
+
+:::
+
+:::lang en
 
 >[!tip] **Drawing 24: Oliver and Lyssa**
 >*Drawing time - 6h (3h + 3h)*
+
+:::
+
+:::lang pt
+
+Ah, é mesmo... Foi nessa aula que a pergunta do professor evoluiu de:
+> "Você é um _furry_?"
+
+para:
+> "Tá... mas você tem um _fursona_?"
+
+---
+*Escrito em 15 de Julho de 2026*
+[[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
 
 Oh, yeah... It was in this class that the teacher's question evolved from:
 > "Are you a _furry_?"

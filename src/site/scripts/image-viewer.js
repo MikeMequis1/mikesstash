@@ -24,6 +24,85 @@
     }
   }
 
+  // Viewers injected by link previews are cloned outside .content; scope to the
+  // real content so we never initialise/focus a preview clone.
+  function inScopeViewers() {
+    return document.querySelectorAll(".content [data-dg-viewer]");
+  }
+
+  function isZoomOverlayOpen() {
+    return !!document.querySelector(".dg-image-viewer__zoom-overlay");
+  }
+
+  function isViewerVisible(viewer) {
+    if (!viewer) return false;
+    var rect = viewer.getBoundingClientRect();
+    var vh = window.innerHeight || document.documentElement.clientHeight;
+    return rect.bottom > 0 && rect.top < vh;
+  }
+
+  function isInteractiveTarget(target) {
+    if (!target || !target.tagName) return false;
+    var tag = target.tagName.toLowerCase();
+    return (
+      tag === "input" ||
+      tag === "textarea" ||
+      tag === "select" ||
+      target.isContentEditable === true
+    );
+  }
+
+  function focusViewer(viewer) {
+    if (!viewer) return;
+    try {
+      viewer.focus({ preventScroll: true });
+    } catch (e) {
+      viewer.focus();
+    }
+  }
+
+  // Arrow-key / Home / End navigation shared by the viewer-scoped handler and
+  // the document-level fallback (used when focus sits outside the viewer, e.g.
+  // after a nav button becomes disabled and releases focus to <body>).
+  function handleViewerKey(viewer, e) {
+    if (!viewer || isZoomOverlayOpen()) return false;
+    if (isInteractiveTarget(e.target)) return false;
+    if (!viewer._dgGo) return false;
+
+    var index = viewer._dgIndex();
+    var total = viewer._dgTotal;
+
+    switch (e.key) {
+      case "ArrowLeft":
+        e.preventDefault();
+        if (index > 0) viewer._dgGo(index - 1);
+        return true;
+      case "ArrowRight":
+        e.preventDefault();
+        if (index < total - 1) viewer._dgGo(index + 1);
+        return true;
+      case "Home":
+        e.preventDefault();
+        viewer._dgGo(0);
+        return true;
+      case "End":
+        e.preventDefault();
+        viewer._dgGo(total - 1);
+        return true;
+      default:
+        return false;
+    }
+  }
+
+  function openActiveZoom(viewer) {
+    if (!viewer || isZoomOverlayOpen()) return;
+    var slide = viewer.querySelector(".dg-image-viewer__slide:not([hidden])");
+    var img = slide ? slide.querySelector("img") : null;
+    var src = img && (img.currentSrc || img.src);
+    if (!src) return;
+    openZoomOverlay(src, img.alt || "", viewer);
+  }
+
   function showSlide(viewer, index) {
     var slides = viewer.querySelectorAll(".dg-image-viewer__slide");
     var captions = viewer.querySelectorAll(".dg-image-viewer__caption-block");
@@ -235,7 +314,7 @@
     };
   }
 
-  function openZoomOverlay(imgSrc, imgAlt) {
+  function openZoomOverlay(imgSrc, imgAlt, returnFocusEl) {
     if (document.querySelector(".dg-image-viewer__zoom-overlay")) return;
 
     var overlay = document.createElement("div");
@@ -243,6 +322,8 @@
     overlay.setAttribute("role", "dialog");
     overlay.setAttribute("aria-modal", "true");
     overlay.setAttribute("aria-label", imgAlt || "Zoomed image");
+    overlay.setAttribute("tabindex", "-1");
+    overlay._returnFocus = returnFocusEl || null;
 
     var img = document.createElement("img");
     img.src = imgSrc;
@@ -252,6 +333,12 @@
     overlay.appendChild(img);
     document.body.appendChild(overlay);
     document.body.classList.add("dg-image-viewer--zoomed");
+
+    try {
+      overlay.focus({ preventScroll: true });
+    } catch (e) {
+      overlay.focus();
+    }
 
     requestAnimationFrame(function () {
       overlay.classList.add("dg-image-viewer__zoom-overlay--visible");
@@ -389,6 +476,24 @@
       }
     });
 
+    // Enter/Space toggle the overlay closed while it is focused; Escape always
+    // closes. The opening keydown is dispatched on the viewer (the overlay is
+    // not in that event's propagation path), so this handler cannot immediately
+    // re-close the overlay that was just opened.
+    overlay.addEventListener("keydown", function (e) {
+      if (e.repeat) return;
+      if (
+        e.key === "Escape" ||
+        e.key === "Enter" ||
+        e.key === " " ||
+        e.key === "Spacebar"
+      ) {
+        e.preventDefault();
+        e.stopPropagation();
+        closeZoomOverlay(overlay);
+      }
+    });
+
     var escHandler = function (e) {
       if (e.key === "Escape") {
         e.preventDefault();
@@ -409,10 +514,12 @@
       document.removeEventListener("keydown", overlay._escHandler);
     }
 
+    var returnFocus = overlay._returnFocus;
     setTimeout(function () {
       if (overlay.parentNode) {
         overlay.parentNode.removeChild(overlay);
       }
+      focusViewer(returnFocus);
     }, 200);
   }
 
@@ -428,23 +535,26 @@
     var nextBtn = viewer.querySelector(".dg-image-viewer__next");
     var backBtn = viewer.querySelector(".dg-image-viewer__back");
 
+    function go(delta, btn) {
+      if (isZoomed) return;
+      var target = index + delta;
+      if (target < 0 || target >= total) return;
+      index = target;
+      showSlide(viewer, index);
+      // A clicked nav button can become disabled and drop focus to <body>,
+      // which would stop keyboard navigation; move focus back to the viewer.
+      if (btn && btn.disabled) focusViewer(viewer);
+    }
+
     if (prevBtn) {
       prevBtn.addEventListener("click", function () {
-        if (isZoomed) return;
-        if (index > 0) {
-          index--;
-          showSlide(viewer, index);
-        }
+        go(-1, this);
       });
     }
 
     if (nextBtn) {
       nextBtn.addEventListener("click", function () {
-        if (isZoomed) return;
-        if (index < total - 1) {
-          index++;
-          showSlide(viewer, index);
-        }
+        go(1, this);
       });
     }
 
@@ -465,29 +575,28 @@
       });
     }
 
-    viewer.addEventListener("keydown", function (e) {
+    viewer._dgTotal = total;
+    viewer._dgIndex = function () {
+      return index;
+    };
+    viewer._dgGo = function (target) {
       if (isZoomed) return;
-      if (e.key === "ArrowLeft") {
+      if (target < 0 || target >= total) return;
+      index = target;
+      showSlide(viewer, index);
+      focusViewer(viewer);
+    };
+
+    viewer.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " " || e.key === "Spacebar") {
+        if (e.repeat) return;
+        if (e.target.closest && e.target.closest("button")) return;
+        if (isZoomOverlayOpen()) return;
         e.preventDefault();
-        if (index > 0) {
-          index--;
-          showSlide(viewer, index);
-        }
-      } else if (e.key === "ArrowRight") {
-        e.preventDefault();
-        if (index < total - 1) {
-          index++;
-          showSlide(viewer, index);
-        }
-      } else if (e.key === "Home") {
-        e.preventDefault();
-        index = 0;
-        showSlide(viewer, index);
-      } else if (e.key === "End") {
-        e.preventDefault();
-        index = total - 1;
-        showSlide(viewer, index);
+        openActiveZoom(viewer);
+        return;
       }
+      handleViewerKey(viewer, e);
     });
 
     var images = viewer.querySelectorAll(".dg-image-viewer__slide img");
@@ -507,7 +616,7 @@
           if (controller.state.scale > 1) return;
           var src = img.currentSrc || img.src;
           var alt = img.alt || "";
-          openZoomOverlay(src, alt);
+          openZoomOverlay(src, alt, viewer);
         });
       })(images[i]);
     }
@@ -539,19 +648,39 @@
   }
 
   function refreshViewerSizes() {
-    var viewers = document.querySelectorAll("[data-dg-viewer]");
+    var viewers = inScopeViewers();
     for (var i = 0; i < viewers.length; i++) {
       updateViewerSize(viewers[i]);
     }
   }
 
   function initAll() {
-    var viewers = document.querySelectorAll("[data-dg-viewer]");
+    var viewers = inScopeViewers();
     for (var i = 0; i < viewers.length; i++) {
       initViewer(viewers[i]);
     }
     refreshViewerSizes();
+
+    // Focus the viewer so arrow keys navigate immediately, without requiring a
+    // click first. Only when it is the sole, visible viewer, to avoid stealing
+    // focus on pages that merely embed one alongside other content.
+    if (viewers.length === 1 && isViewerVisible(viewers[0])) {
+      focusViewer(viewers[0]);
+    }
   }
+
+  // Fallback for when focus is not inside the viewer (e.g. right after a nav
+  // button disables and drops focus): route arrow keys to the single visible
+  // viewer.
+  document.addEventListener("keydown", function (e) {
+    if (isZoomOverlayOpen()) return;
+    var viewers = inScopeViewers();
+    if (viewers.length !== 1) return;
+    var viewer = viewers[0];
+    if (viewer.contains(e.target)) return;
+    if (!isViewerVisible(viewer)) return;
+    handleViewerKey(viewer, e);
+  });
 
   document.addEventListener("DOMContentLoaded", initAll);
   window.addEventListener("load", refreshViewerSizes);
@@ -562,7 +691,7 @@
   if (origApplyLang) {
     window.applyLang = function (lang) {
       origApplyLang(lang);
-      var viewers = document.querySelectorAll("[data-dg-viewer]");
+      var viewers = inScopeViewers();
       for (var i = 0; i < viewers.length; i++) {
         var slides = viewers[i].querySelectorAll(".dg-image-viewer__slide");
         var activeSlide = viewers[i].querySelector(".dg-image-viewer__slide:not([hidden])");

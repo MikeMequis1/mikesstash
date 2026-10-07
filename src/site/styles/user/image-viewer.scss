@@ -41,6 +41,10 @@ body:has(.content .dg-image-viewer) .sidebar {
   outline: none;
   width: 100%;
   box-sizing: border-box;
+  // A definite height lets the stage/slide resolve percentage sizes, so tall
+  // images scale down (object-fit: contain) instead of overflowing and being
+  // cropped by the stage's overflow:hidden — which read as "zoomed in".
+  height: var(--dg-viewer-max-height, calc(100dvh - 40px));
   max-height: var(--dg-viewer-max-height, calc(100dvh - 40px));
 
   &:focus-visible {

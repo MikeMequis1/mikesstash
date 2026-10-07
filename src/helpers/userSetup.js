@@ -5,6 +5,8 @@ const { upgradeYouTubeEmbeds } = require("./youtubeUtils");
 const { upgradePlaylistEmbeds } = require("./playlistEmbedUtils");
 const { langPlugin } = require("./langPlugin");
 const { imageViewerPlugin } = require("./imageViewerPlugin");
+const { imageComboPlugin } = require("./imageComboPlugin");
+const { clearImageComboCache } = require("./imageComboUtils");
 const { socialCoinsPlugin } = require("./socialCoins");
 const { resolveLocalizedTitle, getLocalizedTitlesFromNoteData } = require("./langUtils");
 const {
@@ -38,6 +40,7 @@ const isMarkdownPage = (inputPath) =>
 function userMarkdownSetup(md) {
   md.use(langPlugin);
   md.use(imageViewerPlugin);
+  md.use(imageComboPlugin);
   md.use(socialCoinsPlugin);
 }
 function userEleventySetup(eleventyConfig) {
@@ -54,6 +57,7 @@ function userEleventySetup(eleventyConfig) {
 
   eleventyConfig.on("eleventy.before", () => {
     clearNoteCardIndex();
+    clearImageComboCache();
   });
 
   // These three steps used to be separate transforms, each doing its own full

@@ -2,17 +2,39 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/21-de-fevereiro-de-2026/","title":{"pt":"⚡ 21 de Fevereiro de 2026","en":"⚡ February 21, 2026"},"dg-note-properties":{"navOrder":7,"title":{"pt":"⚡ 21 de Fevereiro de 2026","en":"⚡ February 21, 2026"}}}
 ---
 
-
 :::lang pt
 
 Esta foi a minha **primeira** tentativa em desenhar um personagem **original**.
 
 Inicialmente pensei em refazer a personagem **Nyxa**, porém mudando características e fazendo logo de cabeça, **sem olhar referência alguma**.
 
+:::
+
+:::lang en
+
+This was my **first** attempt at drawing an **original** character.
+
+At first I thought about redoing the character **Nyxa**, but changing features and doing it straight from my head, **without looking at any reference**.
+
+:::
+
 ![10Desenho.jpg](/img/user/img/Drawings/10Desenho.jpg)
+
+:::lang pt
 
 >[!tip] **Desenho 7: Rockeira Woke**
 >*Tempo de desenho - 3h*
+
+:::
+
+:::lang en
+
+>[!tip] **Drawing 7: Woke Rocker**
+>*Drawing time - 3h*
+
+:::
+
+:::lang pt
 
 ... É.
 
@@ -27,15 +49,6 @@ Mas fiquei contente com a forma como incorporei o **olho** do experimento na per
 :::
 
 :::lang en
-
-This was my **first** attempt at drawing an **original** character.
-
-At first I thought about redoing the character **Nyxa**, but changing features and doing it straight from my head, **without looking at any reference**.
-
-![10Desenho.jpg](/img/user/img/Drawings/10Desenho.jpg)
-
->[!tip] **Drawing 7: Woke Rocker**
->*Drawing time - 3h*
 
 ... Yeah.
 

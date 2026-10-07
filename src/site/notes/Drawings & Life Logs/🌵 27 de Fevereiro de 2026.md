@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/27-de-fevereiro-de-2026/","title":{"pt":"🌵 27 de Fevereiro de 2026","en":"🌵 February 27, 2026"},"dg-note-properties":{"navOrder":8,"title":{"pt":"🌵 27 de Fevereiro de 2026","en":"🌵 February 27, 2026"}}}
 ---
 
-
 :::lang pt
 
 No desenho anterior, não estava convencido.
@@ -30,20 +29,6 @@ E:
 >"Isso é bem difícil... Vou tentar fazer, mesmo **sabendo que vai estar ruim**. Também vou **pedir ajuda** para refazer e ter dicas de como fazer."
 
 Os dois pensamentos envolvem ter a consciência da informação que é difícil. A diferença está na abordagem a partir dessa informação.
-
-![11Desenho.jpg](/img/user/img/Drawings/11Desenho.jpg)
-
->[!tip] **Desenho 8: Rancheira Destemida**
->*Tempo de desenho - aprox. 2h30*
-
-Depois que mostrei para o professor, ele ensinou como desenha um chapéu **encaixado na cabeça da personagem**, e não **"apoiado"** na cabeça dela.
-
-Futuramente, nos dias [[Drawings & Life Logs/🤠 2 e 9 de Maio de 2026\|2 e 9 de Maio]], eu refiz essa personagem.
-E a evolução tá bem notória.
-
----
-*Escrito em 6 de Julho de 2026*
-[[🎨 Drawings & Life Logs\|< Voltar]]
 
 :::
 
@@ -75,10 +60,38 @@ And:
 
 Both thoughts involve being aware of how difficult it is. The difference lies in the approach you take from there.
 
+:::
+
 ![11Desenho.jpg](/img/user/img/Drawings/11Desenho.jpg)
+
+:::lang pt
+
+>[!tip] **Desenho 8: Rancheira Destemida**
+>*Tempo de desenho - aprox. 2h30*
+
+:::
+
+:::lang en
 
 >[!tip] **Drawing 8: Fearless Rancher**
 >*Drawing time - approx. 2h30*
+
+:::
+
+:::lang pt
+
+Depois que mostrei para o professor, ele ensinou como desenha um chapéu **encaixado na cabeça da personagem**, e não **"apoiado"** na cabeça dela.
+
+Futuramente, nos dias [[Drawings & Life Logs/🤠 2 e 9 de Maio de 2026\|2 e 9 de Maio]], eu refiz essa personagem.
+E a evolução tá bem notória.
+
+---
+*Escrito em 6 de Julho de 2026*
+[[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
 
 After I showed it to the teacher, he taught me how to draw a hat **fitted to the character's head**, and not **"resting"** on her head.
 

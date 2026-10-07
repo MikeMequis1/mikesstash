@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/28-de-marco-de-2026/","title":{"pt":"🧸 28 de Março de 2026","en":"🧸 March 28, 2026"},"dg-note-properties":{"navOrder":14,"title":{"pt":"🧸 28 de Março de 2026","en":"🧸 March 28, 2026"}}}
 ---
 
-
 :::lang pt
 
 Este foi um desafio que surgiu olhando ao redor em meu quarto, pensando em fazer um desenho de **observação**. Tinha acordado me sentindo **inspirado** e também mais cedo do que de costume, então tinha **tempo de sobra** o suficiente antes da aula.
@@ -15,7 +14,25 @@ https://youtu.be/IWv3XiwH2GQ?si=HT-wWbge9HUHxNZR
 
 A dica, fornecido tanto pelo próprio vídeo e por meus professores, foi desenhar a estrutura base **em cima** da referência em si, auxiliando no **planejamento** e também dar uma noção de **proporção** dos elementos do todo. Portanto, segui este mesmo **raciocínio** para a imagem da pelúcia:
 
+:::
+
+:::lang en
+
+This was a challenge that came from looking around my room, thinking about doing an **observation** drawing. I had woken up feeling **inspired** and also earlier than usual, so I had **plenty of time** before class.
+
+I picked up the first object on my desk that gave me the most inspiration to draw: my **Fidget plush**. I only thought about **doing** the drawing, not about the skills or knowledge required. I wanted to **try**, at least.
+
+It was a challenge mainly because I had **zero** knowledge of anatomy, and the only reference I had was this **Amaru** (Brazilian YouTuber) video:
+
+https://youtu.be/IWv3XiwH2GQ?si=HT-wWbge9HUHxNZR
+
+The tip, provided both by the video itself and by my teachers, was to draw the base structure **on top of** the reference itself, helping with **planning** and also giving a sense of the **proportion** of the elements as a whole. So, I followed the same **reasoning** for the plush's image:
+
+:::
+
 ![Referência.jpg](/img/user/img/Drawings/Refer%C3%AAncia.jpg)
+
+:::lang pt
 
 Curiosamente, o corpo da pelúcia era composta majoritariamente por **círculos**. De resto, tinha **retângulos** nas pernas, e os **triângulos** em suas orelhas.
 
@@ -23,10 +40,35 @@ A maior dificuldade foram as **asas**: por mais que fossem compostas por **curva
 
 Finalmente, a pelugem do peito não ficou como esperava. Imaginei que, desenhando desta forma, representaria a ideia de um **tufo** cheio de pelos finos, mas, por estarem muito **lineares** e **"arrumados"**, causou o efeito oposto. Parece aquele pelo que as abelhas têm, para ser sincero...
 
+:::
+
+:::lang en
+
+Curiously, the plush's body was made up mostly of **circles**. The rest had **rectangles** on the legs, and **triangles** on its ears.
+
+The biggest difficulty was the **wings**: even though they were made of **curves**, the problem was their proportion and the position of each of the "tips" relative to the body. That last part I had to **redo** about three times...
+
+Finally, the chest fur didn't turn out as I expected. I imagined that, drawing it this way, I would represent the idea of a **tuft** full of fine hairs, but since they were too **linear** and **"tidy"**, it caused the opposite effect. It looks like the fuzz bees have, to be honest...
+
+:::
+
 ![20Desenho.jpg](/img/user/img/Drawings/20Desenho.jpg)
+
+:::lang pt
 
 >[!tip] **Desenho 16: Pelúcia de Fidget**
 >*Tempo de desenho - 2h20*
+
+:::
+
+:::lang en
+
+>[!tip] **Drawing 16: Fidget Plush**
+>*Drawing time - 2h20*
+
+:::
+
+:::lang pt
 
 No geral, fiquei contente com o resultado final: as correções que faria neste desenho seriam apenas detalhes e retoques, pois as proporções, posição dos elementos, estrutura base... Está **ótimo**, ainda mais por estar acostumado em desenhar rostos até este momento.
 
@@ -146,59 +188,9 @@ Ela chega em minha casa, bem no meio de uma **reunião** de trabalho.
 
 E com um **Fini vermelho** de brinde.
 
-![Fidget.jpg](/img/user/img/Drawings/Fidget.jpg)
-
-![Fidget.gif](/img/user/img/Drawings/Fidget.gif)
-
-Tipo... A artesã já tinha mandado fotos e vídeos do resultado antes de enviar, mas nossa... A qualidade era de **produto oficial**.
-
-Muito bem detalhado, com asas e cauda, e tudo mais. Segurando a pelúcia tinha até aquele peso de enchimento de **produto de qualidade**. Não aquele peso leve de pelúcia de Sonic que você compra na rua.
-
-Naquele momento, o gosto amargo que aquela criança carregava havia **desaparecido**.
-
-Ela finalmente tinha a pelúcia que sonhou durante **doze anos**.
-
-O medo do que os outros poderiam pensar já **não importava**.
-
-O sonho estava ali, nas minhas mãos.
-
-Cada centavo... 
-Cada mês que passou...
-Valeu a pena.
-
- >Menos o mês que atrasou, vá tomar no c-
- >![Raiva.gif](/img/user/img/Raiva.gif)
-
----
-*Escrito em 11 de Julho de 2026, revisado em 13 de Julho de 2026*
-[[🎨 Drawings & Life Logs\|< Voltar]]
-
 :::
 
 :::lang en
-
-This was a challenge that came from looking around my room, thinking about doing an **observation** drawing. I had woken up feeling **inspired** and also earlier than usual, so I had **plenty of time** before class.
-
-I picked up the first object on my desk that gave me the most inspiration to draw: my **Fidget plush**. I only thought about **doing** the drawing, not about the skills or knowledge required. I wanted to **try**, at least.
-
-It was a challenge mainly because I had **zero** knowledge of anatomy, and the only reference I had was this **Amaru** (Brazilian YouTuber) video:
-
-https://youtu.be/IWv3XiwH2GQ?si=HT-wWbge9HUHxNZR
-
-The tip, provided both by the video itself and by my teachers, was to draw the base structure **on top of** the reference itself, helping with **planning** and also giving a sense of the **proportion** of the elements as a whole. So, I followed the same **reasoning** for the plush's image:
-
-![Referência.jpg](/img/user/img/Drawings/Refer%C3%AAncia.jpg)
-
-Curiously, the plush's body was made up mostly of **circles**. The rest had **rectangles** on the legs, and **triangles** on its ears.
-
-The biggest difficulty was the **wings**: even though they were made of **curves**, the problem was their proportion and the position of each of the "tips" relative to the body. That last part I had to **redo** about three times...
-
-Finally, the chest fur didn't turn out as I expected. I imagined that, drawing it this way, I would represent the idea of a **tuft** full of fine hairs, but since they were too **linear** and **"tidy"**, it caused the opposite effect. It looks like the fuzz bees have, to be honest...
-
-![20Desenho.jpg](/img/user/img/Drawings/20Desenho.jpg)
-
->[!tip] **Drawing 16: Fidget Plush**
->*Drawing time - 2h20*
 
 Overall, I was happy with the final result: the corrections I would make to this drawing would only be details and touch-ups, since the proportions, position of the elements, base structure... It's **great**, especially considering I was used to drawing faces up to that point.
 
@@ -318,9 +310,40 @@ It arrived at my house, right in the middle of a work **meeting**.
 
 And a red gummy stick thrown in for free.
 
+:::
+
 ![Fidget.jpg](/img/user/img/Drawings/Fidget.jpg)
 
 ![Fidget.gif](/img/user/img/Drawings/Fidget.gif)
+
+:::lang pt
+
+Tipo... A artesã já tinha mandado fotos e vídeos do resultado antes de enviar, mas nossa... A qualidade era de **produto oficial**.
+
+Muito bem detalhado, com asas e cauda, e tudo mais. Segurando a pelúcia tinha até aquele peso de enchimento de **produto de qualidade**. Não aquele peso leve de pelúcia de Sonic que você compra na rua.
+
+Naquele momento, o gosto amargo que aquela criança carregava havia **desaparecido**.
+
+Ela finalmente tinha a pelúcia que sonhou durante **doze anos**.
+
+O medo do que os outros poderiam pensar já **não importava**.
+
+O sonho estava ali, nas minhas mãos.
+
+Cada centavo... 
+Cada mês que passou...
+Valeu a pena.
+
+ >Menos o mês que atrasou, vá tomar no c-
+ >![Raiva.gif](/img/user/img/Raiva.gif)
+
+---
+*Escrito em 11 de Julho de 2026, revisado em 13 de Julho de 2026*
+[[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
 
 I mean... The artisan had already sent photos and videos of the result before shipping, but wow... The quality was almost on par with an **official product**.
 

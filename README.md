@@ -53,6 +53,59 @@ Project-specific frontmatter properties, resolved from `dg-note-properties` (or 
 | `dgShowComments` | `true` | Show Giscus comments |
 | `dgShowLinkCards` | `false` | Render links as cards |
 
+### Note Markers
+
+Single-line block markers usable in note bodies.
+
+| Marker | Description |
+|--------|-------------|
+| `:::dg-viewer` … `:::dg-viewer` | Manual image viewer; wrap images + `:::lang` captions |
+| `:::display-image-combo` | Auto-populated image viewer |
+| `:::lang pt` / `:::lang en` … `:::` | Bilingual content block (language toggle) |
+| `:::social-coins` / `:::social-coins-portfolio` | Social profile coin grid |
+
+`:::display-image-combo` builds the viewer from the "image + `>` description"
+combos found in the notes of the `Drawings & Life Logs` folder. An image
+qualifies only when it is immediately followed by a blockquote description in
+**both** Portuguese and English:
+
+````markdown
+![1Desenho.jpg](/img/user/img/Drawings/1Desenho.jpg)
+
+:::lang pt
+>[!tip] **Desenho 1: Cabeça de Ovo**
+:::
+:::lang en
+>[!tip] **Drawing 1: Egg Head**
+:::
+````
+
+Combos are ordered by each source note's `navOrder`. The viewer note (the one
+with `dgShowImageViewer`) is never used as a source. If the viewer is disabled,
+the combos render as a plain stacked list instead.
+
+### Image Viewer Controls
+
+The viewer is keyboard-focusable; on a page whose only viewer is visible it
+receives focus on load, so the keyboard controls work without clicking first.
+Images are always shown fully (scaled to fit) before any zoom is applied.
+
+| Input | Action |
+|-------|--------|
+| `←` / `→` | Previous / next image (also `Home` / `End` for first / last) |
+| `Enter` / `Space` | Toggle the zoom overlay: press once to open, press again to close |
+| `Esc` | Close the zoom overlay |
+| Prev / Next buttons | Previous / next image |
+| Back button | Return to the note's listing (Garden) or browser history (Portfolio) |
+| Click image | Open the zoom overlay |
+| Click image / backdrop | Close the zoom overlay (when not zoomed) |
+| Mouse wheel | Zoom in / out |
+| Drag | Pan (when zoomed) |
+| Pinch | Zoom (touch); drag with one finger to pan when zoomed |
+
+`←` / `→` / `Home` / `End` also work when focus is not inside the viewer, as
+long as there is exactly one viewer and it is on screen.
+
 ---
 
 ## Original README.md - Digital Garden

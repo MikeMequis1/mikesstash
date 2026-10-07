@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/13-e-14-de-marco-de-2026/","title":{"pt":"🐱 13 e 14 de Março de 2026","en":"🐱 March 13 and 14, 2026"},"dg-note-properties":{"navOrder":12,"title":{"pt":"🐱 13 e 14 de Março de 2026","en":"🐱 March 13 and 14, 2026"}}}
 ---
 
-
 :::lang pt
 
 Eu sei o que está pensando:
@@ -15,10 +14,39 @@ Eu tenho muito o que dizer aqui, então prepare os **óculos de leitura**.
 
 Agora sim, falando do desenho em si. O primeiro, a da **Nyxa Vox**, que já apareceu em imagens anteriores. Apesar da aparência, este desenho não representa uma **dupla personalidade**. Ele retrata uma **parte da história** da Nyxa.
 
+:::
+
+:::lang en
+
+I know what you're thinking:
+
+>"Wow, you made **three** drawings in **one class**?!"
+
+... No. The first drawing was finished at **midnight**, a day before the class. **Sleep** got the better of me and made me record the wrong date. The other two, yes, were made during the class.
+
+I have a lot to say here, so put on your **reading glasses**.
+
+Now, talking about the drawing itself. The first one, **Nyxa Vox**, who has already appeared in earlier images. Despite appearances, this drawing does not represent a **split personality**. It portrays **part of Nyxa's story**.
+
+:::
+
 ![16Desenho.jpg](/img/user/img/Drawings/16Desenho.jpg)
+
+:::lang pt
 
 >[!tip] **Desenho 12: Alma de Performance e Loucura**
 >*Tempo de desenho - aprox. 3h20*
+
+:::
+
+:::lang en
+
+>[!tip] **Drawing 12: Soul of Performance and Madness**
+>*Drawing time - approx. 3h20*
+
+:::
+
+:::lang pt
 
 De um lado, vemos a atriz, um **veículo** que interpreta a loucura em um **teatro**, diante do público.
 
@@ -76,60 +104,9 @@ Pela primeira vez, eu desenhava antes de julgar.
 
 No fim, tive uma ilustração que teve curvas mais suaves e traços finos.
 
-![17Desenho.jpg](/img/user/img/Drawings/17Desenho.jpg)
-
->[!tip] **Desenho 13: Lyssa Wheeler**
->*Tempo de desenho - 2h30*
-
-Além de estar bem fiel à referência, esse desenho saiu bem mais **rápido**. Pela primeira vez, tive a sensação de que eu não estava brigando comigo mesmo durante o processo. Eu simplesmente estava... desenhando.
-
-Foi uma experiência que me fez olhar o resultado e dizer:
-
->"Nossa... Desenhar é **muito legal**."
-
-Depois disso, eu lembrei do meme:
-
-https://www.youtube.com/watch?v=UGjddoPfx8w
-
----
-
-Depois da Lyssa, que é um rosto humano com orelhas de gato, resolvi aumentar a dificuldade e partir para um **personagem lobo**. O processo continua iniciando por um rosto humano. Depois, adiciona-se o focinho (que é como encaixar uma pequena **caixa** na região da boca), seguido por pelos e orelhas.
-
->[!question] Detalhe: Apesar de ser um personagem antropomórfico, as orelhas são posicionadas de forma **perpendicular** ao eixo das orelhas humanas, preservando a anatomia do animal e deixando o resultado mais convincente.
-
-![18Desenho.jpg](/img/user/img/Drawings/18Desenho.jpg)
-
->[!tip] **Desenho 14: Oliver Reed (lobo)**
->*Tempo de desenho - 3h20*
-
-Esse aqui segue a direção da narrativa que desenvolvi lá em cima, então não tenho muito o que comentar aqui.
-
-Exceto o fato do professor olhar meu desenho, depois me olhar e perguntar se eu era um *furry*.
-
->[!info] Estes desenhos marcam um detalhe importante: as imagens utilizadas como referência foram **gerada por IA**. Na época em que fiz este estudo, **não conhecia** as discussões envolvendo o uso desse tipo de imagem no treinamento de modelos e seus impactos para **artistas**. Hoje procuro dar preferência a trabalhos publicados por artistas ou a fotografias. Vou deixar uma página detalhando essa questão para manter esse histórico **transparente** em vez de apagar ou fingir que nunca aconteceu, e também informar leitores a respeito do impacto negativo desse material.
-
----
-*Escrito em 7 de Julho de 2026*
-[[🎨 Drawings & Life Logs\|< Voltar]]
-
 :::
 
 :::lang en
-
-I know what you're thinking:
-
->"Wow, you made **three** drawings in **one class**?!"
-
-... No. The first drawing was finished at **midnight**, a day before the class. **Sleep** got the better of me and made me record the wrong date. The other two, yes, were made during the class.
-
-I have a lot to say here, so put on your **reading glasses**.
-
-Now, talking about the drawing itself. The first one, **Nyxa Vox**, who has already appeared in earlier images. Despite appearances, this drawing does not represent a **split personality**. It portrays **part of Nyxa's story**.
-
-![16Desenho.jpg](/img/user/img/Drawings/16Desenho.jpg)
-
->[!tip] **Drawing 12: Soul of Performance and Madness**
->*Drawing time - approx. 3h20*
 
 On one side, we see the actress, a **vessel** who performs madness in a **theater**, before the audience.
 
@@ -187,10 +164,45 @@ For the first time, I drew before judging.
 
 In the end, I had an illustration with softer curves and fine strokes.
 
+:::
+
 ![17Desenho.jpg](/img/user/img/Drawings/17Desenho.jpg)
+
+:::lang pt
+
+>[!tip] **Desenho 13: Lyssa Wheeler**
+>*Tempo de desenho - 2h30*
+
+:::
+
+:::lang en
 
 >[!tip] **Drawing 13: Lyssa Wheeler**
 >*Drawing time - 2h30*
+
+:::
+
+:::lang pt
+
+Além de estar bem fiel à referência, esse desenho saiu bem mais **rápido**. Pela primeira vez, tive a sensação de que eu não estava brigando comigo mesmo durante o processo. Eu simplesmente estava... desenhando.
+
+Foi uma experiência que me fez olhar o resultado e dizer:
+
+>"Nossa... Desenhar é **muito legal**."
+
+Depois disso, eu lembrei do meme:
+
+https://www.youtube.com/watch?v=UGjddoPfx8w
+
+---
+
+Depois da Lyssa, que é um rosto humano com orelhas de gato, resolvi aumentar a dificuldade e partir para um **personagem lobo**. O processo continua iniciando por um rosto humano. Depois, adiciona-se o focinho (que é como encaixar uma pequena **caixa** na região da boca), seguido por pelos e orelhas.
+
+>[!question] Detalhe: Apesar de ser um personagem antropomórfico, as orelhas são posicionadas de forma **perpendicular** ao eixo das orelhas humanas, preservando a anatomia do animal e deixando o resultado mais convincente.
+
+:::
+
+:::lang en
 
 Besides being quite faithful to the reference, this drawing came out much **faster**. For the first time, I had the feeling that I wasn't fighting with myself during the process. I was simply... drawing.
 
@@ -208,10 +220,39 @@ After Lyssa, who is a human face with cat ears, I decided to increase the diffic
 
 >[!question] Detail: Although it's an anthropomorphic character, the ears are positioned **perpendicular** to the axis of human ears, preserving the animal's anatomy and making the result more convincing.
 
+:::
+
 ![18Desenho.jpg](/img/user/img/Drawings/18Desenho.jpg)
+
+:::lang pt
+
+>[!tip] **Desenho 14: Oliver Reed (lobo)**
+>*Tempo de desenho - 3h20*
+
+:::
+
+:::lang en
 
 >[!tip] **Drawing 14: Oliver Reed (wolf)**
 >*Drawing time - 3h20*
+
+:::
+
+:::lang pt
+
+Esse aqui segue a direção da narrativa que desenvolvi lá em cima, então não tenho muito o que comentar aqui.
+
+Exceto o fato do professor olhar meu desenho, depois me olhar e perguntar se eu era um *furry*.
+
+>[!info] Estes desenhos marcam um detalhe importante: as imagens utilizadas como referência foram **gerada por IA**. Na época em que fiz este estudo, **não conhecia** as discussões envolvendo o uso desse tipo de imagem no treinamento de modelos e seus impactos para **artistas**. Hoje procuro dar preferência a trabalhos publicados por artistas ou a fotografias. Vou deixar uma página detalhando essa questão para manter esse histórico **transparente** em vez de apagar ou fingir que nunca aconteceu, e também informar leitores a respeito do impacto negativo desse material.
+
+---
+*Escrito em 7 de Julho de 2026*
+[[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
 
 This one follows the direction of the narrative I developed above, so I don't have much to comment here.
 

@@ -175,7 +175,7 @@ function buildViewerHtml(figures, renderMarkdown) {
   }
 
   return (
-    `<section class="dg-image-viewer" data-dg-viewer tabindex="0" role="group" aria-roledescription="image viewer" aria-label="Image viewer">` +
+    `<section class="dg-image-viewer" data-dg-viewer tabindex="0" role="group" aria-roledescription="image viewer" aria-label="Image viewer" aria-keyshortcuts="ArrowLeft ArrowRight Home End">` +
     `<button class="dg-image-viewer__back" type="button">` +
     `<span class="dg-image-viewer__btn-label" data-title-pt="Voltar" data-title-en="Back">Voltar</span>` +
     `</button>` +

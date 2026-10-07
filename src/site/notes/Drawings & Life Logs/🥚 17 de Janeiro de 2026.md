@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/17-de-janeiro-de-2026/","title":{"pt":"🥚 17 de Janeiro de 2026","en":"🥚 January 17, 2026"},"dg-note-properties":{"navOrder":1,"title":{"pt":"🥚 17 de Janeiro de 2026","en":"🥚 January 17, 2026"}}}
 ---
 
-
 :::lang pt
 
 O **primeiro dia oficial** que comecei minhas aulas de desenho. Pense em uma pessoa ansiosa para começar as aulas e que achou que iria se dar muito bem.
@@ -24,7 +23,34 @@ Eles pediram:
 
 O resultado foi essa cabeça de *alien* embaixo (o do meio é do professor, só pra deixar claro a diferença de qualidade):
 
+:::
+
+:::lang en
+
+The **first official day** I started my drawing classes. Imagine someone eager to start the classes and who thought he would do really well.
+
+>"Well, I drew **a lot** in elementary and high school, I'll breeze through these classes. **I don't know anything about the theory and logic behind it**, but I'll pick it up in no time with what I've got."
+
+I arrived at the trial class, and they did the introductory assessment, showing how you draw today and your linework, among other things...
+
+I had **nothing** to show, and the drawings I had were about **6 years old or more** (The last drawing I had made was actually from high school... Back in **2020**).
+
+...But even so, I was determined.
+Did I start from absolute zero?
+I did.
+**Did I only realize that when I got there**?
+... Yes.
+
+They asked:
+> "Draw a face the way you know how, in **your style**".
+
+The result was that *alien* head below (the middle one is the teacher's, just to point out the difference clearly):
+
+:::
+
 ![3Desenho.jpg](/img/user/img/Drawings/3Desenho.jpg)
+
+:::lang pt
 
 ... É, dá pra ver que ainda tinha **muito** para evoluir.
 
@@ -32,7 +58,21 @@ O resultado foi essa cabeça de *alien* embaixo (o do meio é do professor, só 
 
 Certo, **primeiro rosto**. O professor inicia o desenho com um simples círculo. Depois disso, tem algumas linhas de referência e medidas conforme a metodologia [**Loomis**](https://www.21-draw.com/pt/loomis-method/). Ele teve a cordialidade e a disposição para fazer até um mini **passo-a-passo** para desenhar o rosto: círculos, pizzas, altura de sobrancelha, dos olhos, formato do pescoço, entre outros.
 
+:::
+
+:::lang en
+
+... Yeah, you can see I still had **a long way to go**.
+
+---
+
+Alright, **first face**. The teacher starts the drawing with a simple circle. After that, there are some reference lines and measurements following the [**Loomis**](https://www.21-draw.com/pt/loomis-method/) method. He was kind and willing enough to even draw a mini **step-by-step** for drawing the face: circles, pizzas, eyebrow height, eye height, neck shape, among others.
+
+:::
+
 ![2Desenho.jpg](/img/user/img/Drawings/2Desenho.jpg)
+
+:::lang pt
 
 ---
 
@@ -74,56 +114,9 @@ Então, eu parei e fiz exatamente isso. Pedi emprestado uma **régua** e um **co
 
 Finalmente, o resultado foi o que você está vendo abaixo: o **Gelado da Shopee**. O cabeça-de-ovo dos Incríveis. E ainda por cima com as linhas de referência tortas (eu notei isso enquanto escrevia).
 
-![1Desenho.jpg](/img/user/img/Drawings/1Desenho.jpg)
-
->[!tip] **Desenho 1: Cabeça de Ovo**
->*Tempo de desenho - 3h* (contando surtos psicológicos internos)
->*Referência: Mini Passo-a-passo do professor, sem personagem específico*
-
-Longe de ser perfeito e mais ainda de um personagem de anime, mas era o **início** da minha superação. E também o começo de outro fator essencial no desenho: **se soltar**. Se libertar do **perfeccionismo**. Se libertar da **preocupação pelo resultado final**. Apenas... Desenhar. Claro, com um objetivo, com uma metodologia, mas **não se deixar prender**. Desenvolver a convicção aos poucos, e **se permitir errar**.
-
-Desenhar é como **aprender um instrumento ou um idioma novo**. Além de descobrir e estudar, é essencial ter a prática durante o seu **cotidiano**. É produzir, por menor ou pior que esteja, é continuar. É se perdoar e tentar de novo.
-
----
-
-Não se preocupe, as ilustrações seguintes não terão muralhas de texto como este, só as mais importantes e mais impactantes.
-
----
-*Escrito em 5 de Julho de 2026*
-[[🎨 Drawings & Life Logs\|< Voltar]]
-
 :::
 
 :::lang en
-
-The **first official day** I started my drawing classes. Imagine someone eager to start the classes and who thought he would do really well.
-
->"Well, I drew **a lot** in elementary and high school, I'll breeze through these classes. **I don't know anything about the theory and logic behind it**, but I'll pick it up in no time with what I've got."
-
-I arrived at the trial class, and they did the introductory assessment, showing how you draw today and your linework, among other things...
-
-I had **nothing** to show, and the drawings I had were about **6 years old or more** (The last drawing I had made was actually from high school... Back in **2020**).
-
-...But even so, I was determined.
-Did I start from absolute zero?
-I did.
-**Did I only realize that when I got there**?
-... Yes.
-
-They asked:
-> "Draw a face the way you know how, in **your style**".
-
-The result was that *alien* head below (the middle one is the teacher's, just to point out the difference clearly):
-
-![3Desenho.jpg](/img/user/img/Drawings/3Desenho.jpg)
-
-... Yeah, you can see I still had **a long way to go**.
-
----
-
-Alright, **first face**. The teacher starts the drawing with a simple circle. After that, there are some reference lines and measurements following the [**Loomis**](https://www.21-draw.com/pt/loomis-method/) method. He was kind and willing enough to even draw a mini **step-by-step** for drawing the face: circles, pizzas, eyebrow height, eye height, neck shape, among others.
-
-![2Desenho.jpg](/img/user/img/Drawings/2Desenho.jpg)
 
 ---
 
@@ -165,11 +158,43 @@ So, I stopped and did exactly that. I borrowed a **ruler** and a **compass** and
 
 Finally, the result was what you're seeing below: the **Frozone from Temu**. The Incredibles' egg-head. And on top of that, with crooked reference lines (I noticed that while writing).
 
+:::
+
 ![1Desenho.jpg](/img/user/img/Drawings/1Desenho.jpg)
+
+:::lang pt
+
+>[!tip] **Desenho 1: Cabeça de Ovo**
+>*Tempo de desenho - 3h* (contando surtos psicológicos internos)
+>*Referência: Mini Passo-a-passo do professor, sem personagem específico*
+
+:::
+
+:::lang en
 
 >[!tip] **Drawing 1: Egg Head**
 >*Drawing time - 3h* (considering internal psychological breakdowns involved)
 >*Reference: Teacher's Mini Step-by-Step, no specific character*
+
+:::
+
+:::lang pt
+
+Longe de ser perfeito e mais ainda de um personagem de anime, mas era o **início** da minha superação. E também o começo de outro fator essencial no desenho: **se soltar**. Se libertar do **perfeccionismo**. Se libertar da **preocupação pelo resultado final**. Apenas... Desenhar. Claro, com um objetivo, com uma metodologia, mas **não se deixar prender**. Desenvolver a convicção aos poucos, e **se permitir errar**.
+
+Desenhar é como **aprender um instrumento ou um idioma novo**. Além de descobrir e estudar, é essencial ter a prática durante o seu **cotidiano**. É produzir, por menor ou pior que esteja, é continuar. É se perdoar e tentar de novo.
+
+---
+
+Não se preocupe, as ilustrações seguintes não terão muralhas de texto como este, só as mais importantes e mais impactantes.
+
+---
+*Escrito em 5 de Julho de 2026*
+[[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
 
 Far from perfect and even further from an anime character, but it was the **beginning** of my overcoming. And also the beginning of another essential factor in drawing: **letting yourself go**. Freeing yourself from **perfectionism**. Freeing yourself from **worries about the final result**. Just... Drawing. Of course, along with a goal, with a methodology, but **not letting yourself get stuck**. Developing conviction little by little, and **allowing yourself to make mistakes**.
 

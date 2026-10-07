@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/24-de-janeiro-de-2026/","title":{"pt":"⭕ 24 de Janeiro de 2026","en":"⭕ January 24, 2026"},"dg-note-properties":{"navOrder":2,"title":{"pt":"⭕ 24 de Janeiro de 2026","en":"⭕ January 24, 2026"}}}
 ---
 
-
 :::lang pt
 
 A primeira personagem que fiz logo depois do Cabeça de Ovo, a heroína do **My Hero Academia**. A folha de referência tinham 6 personagens, e logo com ela, o meu instinto foi desenhar os rostos **do mesmo tamanho**. Porém, o conselho do professor e de mais um colega de sala foi desenhar **maior**, quase do tamanho da folha (acabei desenhando grande demais, acabei subestimando o tamanho do cabelo dela...). Isso favorece duas práticas do desenho:
@@ -20,16 +19,6 @@ Ah, importante também, a **forma de segurar** o lápis/lapiseira também ajudam
 - Segurar na **ponta**: detalhes e finalização do desenho.
 
 Como estava no começo, o nervoso ainda estava em tona, então seguir esses conselhos foi mais difícil na prática.
-
-![4Desenho.jpg](/img/user/img/Drawings/4Desenho.jpg)
-
->[!tip] **Desenho 2: Ochako Uraraka Cearense**
->*Tempo de desenho - 3h*
->*Referência: Desenho anterior + Ochako Uraraka, de My Hero Academia*
-
----
-*Escrito em 5 de Julho de 2026*
-[[🎨 Drawings & Life Logs\|< Voltar]]
 
 :::
 
@@ -51,11 +40,35 @@ Oh, and also important, the **way of holding** the pencil/mechanical pencil also
 
 Since I was at the beginning, the nerves were still running high, so following these tips was harder in practice.
 
+:::
+
 ![4Desenho.jpg](/img/user/img/Drawings/4Desenho.jpg)
+
+:::lang pt
+
+>[!tip] **Desenho 2: Ochako Uraraka Cearense**
+>*Tempo de desenho - 3h*
+>*Referência: Desenho anterior + Ochako Uraraka, de My Hero Academia*
+
+:::
+
+:::lang en
 
 >[!tip] **Drawing 2: Big Head Ochako Uraraka**
 >*Drawing time - 3h*
 >*Reference: Previous drawing + Ochako Uraraka, from My Hero Academia*
+
+:::
+
+:::lang pt
+
+---
+*Escrito em 5 de Julho de 2026*
+[[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
 
 ---
 *Written on July 5, 2026*

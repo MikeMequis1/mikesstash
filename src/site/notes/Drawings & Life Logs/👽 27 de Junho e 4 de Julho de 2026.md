@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/27-de-junho-e-4-de-julho-de-2026/","title":{"pt":"👽 27 de Junho e 4 de Julho de 2026","en":"👽 June 27 and July 4, 2026"},"dg-note-properties":{"navOrder":23,"title":{"pt":"👽 27 de Junho e 4 de Julho de 2026","en":"👽 June 27 and July 4, 2026"}}}
 ---
 
-
 :::lang pt
 
 ... Sim. Mais um personagem com expressão de surpresa em meio perfil. Porém, este passou por um monte de **zigue-zagues** antes de chegar ao resultado final.
@@ -25,19 +24,6 @@ Veio outra ideia totalmente aleatória:
 >"Vou desenhar um capacete de **astronauta**. E o seu visor estará **rachando**, na iminência de ser quebrado no meio do espaço."
 
 No fim, tive o seguinte resultado:
-
-![30Desenho.jpg](/img/user/img/Drawings/30Desenho.jpg)
-
->[!tip] **Desenho 26: Morte Espacial Iminente**
->*Tempo de desenho - 4h*
-
-O detalhe de que mais gostei foram as **rachaduras** no visor. Com a ajuda do professor, consegui representar as trincas e os pequenos fragmentos de vidro flutuando ao redor, o que acabou reforçando bastante a sensação de **perigo**.
-
-Achei legal pois mostra que **criatividade** nem sempre é "ter uma ideia genial do nada". Às vezes ela é uma colisão de referências completamente diferentes que ficaram guardadas.
-
----
-*Escrito em 15 de Julho de 2026*
-[[🎨 Drawings & Life Logs\|< Voltar]]
 
 :::
 
@@ -64,10 +50,37 @@ Another totally random idea came up:
 
 In the end, I got the following result:
 
+:::
+
 ![30Desenho.jpg](/img/user/img/Drawings/30Desenho.jpg)
+
+:::lang pt
+
+>[!tip] **Desenho 26: Morte Espacial Iminente**
+>*Tempo de desenho - 4h*
+
+:::
+
+:::lang en
 
 >[!tip] **Drawing 26: Imminent Death in Space**
 >*Drawing time - 4h*
+
+:::
+
+:::lang pt
+
+O detalhe de que mais gostei foram as **rachaduras** no visor. Com a ajuda do professor, consegui representar as trincas e os pequenos fragmentos de vidro flutuando ao redor, o que acabou reforçando bastante a sensação de **perigo**.
+
+Achei legal pois mostra que **criatividade** nem sempre é "ter uma ideia genial do nada". Às vezes ela é uma colisão de referências completamente diferentes que ficaram guardadas.
+
+---
+*Escrito em 15 de Julho de 2026*
+[[🎨 Drawings & Life Logs\|< Voltar]]
+
+:::
+
+:::lang en
 
 The detail I liked most was the **cracks** in the visor. With the teacher's help, I managed to represent the fissures and the small fragments of glass floating around, which ended up greatly reinforcing the sense of **danger**.
 
