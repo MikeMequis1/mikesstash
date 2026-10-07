@@ -22,7 +22,7 @@ This was a challenge that came from looking around my room, thinking about doing
 
 I picked up the first object on my desk that gave me the most inspiration to draw: my **Fidget plush**. I only thought about **doing** the drawing, not about the skills or knowledge required. I wanted to **try**, at least.
 
-It was a challenge mainly because I had **zero** knowledge of anatomy, and the only reference I had was this **Amaru** (Brazilian YouTuber) video:
+It was a challenge mainly because I had **zero** knowledge of anatomy, and the only reference I had was this video from **Amaru** (brazilian YouTuber):
 
 https://youtu.be/IWv3XiwH2GQ?si=HT-wWbge9HUHxNZR
 
@@ -259,7 +259,7 @@ The [official site](https://www.noogy.com/) has absolutely **nothing** mentionin
 
 What was out there were different *DeviantArt* posts from fans creating their own plushies of the character, but nothing sold on **Brazilian soil**.
 
->Description of the *DeviantArt* post, by the way: ![Luto.png](/img/user/img/Drawings/Luto.png)
+>Description of the *DeviantArt* post, by the way: ![Luto_EN.png](/img/user/img/Drawings/Luto_EN.png)
 
 At this moment, I took a **hiatus** from the search for the plush. I stopped exactly at this point as a kid.
 
@@ -283,7 +283,7 @@ It wasn't something given by my parents as a "**treat**".
 
 I started my search with a question:
 
->... Wait, youtubers I used to watch at the time like [Core](https://www.youtube.com/channel/UC-yA8YhrAgpFp4aVHRaNyMA) have plushies of characters like [*Bendy*](https://joeydrewstudios.com/batim) at a time when there was **not even an official way to buy them here in Brazil**. How did he get one of those?
+>... Wait, youtubers I used to watch at the time like [Core](https://www.youtube.com/channel/UC-yA8YhrAgpFp4aVHRaNyMA) (another brazilian YouTuber) have plushies of characters like [*Bendy*](https://joeydrewstudios.com/batim) at a time when there was **not even an official way to buy them here in Brazil**. How did he get one of those?
 
 At that moment, I discovered the existence of **custom handmade plushies** on the national market.
 
