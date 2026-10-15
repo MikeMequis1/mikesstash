@@ -63,12 +63,16 @@ Explore and have fun!
 
 :::lang pt
 
+Procurando inspiração? Explore outros sites e descubra projetos semelhantes em [Obsidian Vaults](https://vaults.obsidian-community.com/).
+
 *Última atualização em 27 de Setembro de 2026*
 [[🏡 Home Page\|< Voltar]]
 
 :::
 
 :::lang en
+
+Looking for inspiration? Explore other websites and discover similar projects at [Obsidian Vaults](https://vaults.obsidian-community.com/).
 
 *Last updated in September 27th, 2026*
 [[🏡 Home Page\|< Back]]
