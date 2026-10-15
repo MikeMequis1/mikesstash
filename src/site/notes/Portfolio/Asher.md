@@ -12,7 +12,7 @@
 
 O projeto combina **patching de código em runtime** e **substituição de conteúdo**, buscando oferecer uma experiência de modding segura, modular e reversível.
 
-[Repositório](https://github.com/MikeMequis/Asher)
+[Repositório](https://github.com/MikeMequis1/Asher)
 
 > Documentação técnica detalhada: [[🐱 Asher\|Asher (Jardim)]]
 
@@ -104,7 +104,7 @@ Esses requisitos tornam o projeto particularmente interessante como estudo de **
 
 The project combines **runtime code patching** and **content replacement**, aiming to provide a safe, modular, and reversible modding experience.
 
-[Repository](https://github.com/MikeMequis/Asher)
+[Repository](https://github.com/MikeMequis1/Asher)
 
 > Detailed technical documentation:  [[🐱 Asher\|Asher (Garden)]]
 

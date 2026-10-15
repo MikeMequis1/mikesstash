@@ -54,7 +54,6 @@
 [[🎨 Drawings & Life Logs\|🎨 Drawings & Life Logs]]
 [[🐱 Asher\|🐱 Asher]]
 [[🌌 Web Haven\|🌌 Web Haven]]
-[[🌱 Minecraft Server in Android (2024)\|🌱 Minecraft Server in Android (2024)]]
-[[⚔️ Ocarina of Time Server in Android (2025)\|⚔️ Ocarina of Time Server in Android (2025)]]
+[[☕︎ Other Projects & Tutorials\|☕︎ Other Projects & Tutorials]]
 [[🎧 Playlists\|🎧 Playlists]]
 [[ℹ️ Sobre\|ℹ️ Sobre]]

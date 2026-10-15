@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/drawings-and-life-logs/","title":{"pt":"🎨 Desenhos & Diários","en":"🎨 Drawings & Life Logs"},"dg-note-properties":{"dgShowComments":false,"navOrder":3,"title":{"pt":"🎨 Desenhos & Diários","en":"🎨 Drawings & Life Logs"}}}
 ---
 
-
-
 ![Drawings.gif](/img/user/img/Drawings.gif)
 
 :::lang pt

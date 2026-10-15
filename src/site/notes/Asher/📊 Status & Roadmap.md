@@ -14,8 +14,8 @@
 |Runtime initialization|✅ Done|Logs, lifecycle, and folders working|
 |Harmony bootstrap|✅ Done|Runtime patching confirmed and working|
 |Mod SDK|✅ Done|Clean interfaces for mod authors|
-|Default patches|✅ Done|5 built-in patch modules (see [🎯 Project Overview](https://chatgpt.com/g/g-p-693349c679288191939e9043a41b8205-asher-project/c/%F0%9F%8E%AF%20Project%20Overview))|
-|Electron manager UI|⏸️ Deferred|Being replaced by the Avalonia manager UI|
+|Default patches|✅ Done|5 built-in patch modules (see [[Asher/🎯 Project Overview\|🎯 Project Overview]])|
+|Electron manager UI|✅ Done|Current manager UI (HTML/CSS/JS + `Asher.Host`)|
 |JSONL host|✅ Done|Headless service for install, mods, and settings|
 |Patch Manager|✅ Done|Enable/disable mods by moving files|
 |Game-folder logging|✅ Done|`runtime_*`, `manager_*`, `launcher_fatal_*`|
@@ -24,11 +24,11 @@
 |Emergency uninstall helper|✅ Done|`Uninstall-Asher.cmd` beside `DustAET.exe` (Windows)|
 |Safe vs Total removal|✅ Done|In-app uninstall vs the emergency script (Windows)|
 |In-app GitHub updates|✅ Done|Packaged builds apply release zips (Windows only)|
-|Avalonia manager UI|🔨 Working|Cross-platform manager UI replacing Electron|
+|Avalonia manager UI|⏸️ Backlog|Not implemented; Electron remains the manager UI|
 |Discord Rich Presence|🔨 Working|Discord Rich Presence integration|
 |Custom application icon & Desktop shortcut|🔨 Working|Custom application icon and Desktop shortcut creation|
 |Multiple game installations|🔨 Working|Support for multiple installations of the same game, such as Steam and GOG|
-|Content patcher|🔜 Planned|ContentManager interception — no backend yet|
+|Content patcher|🔜 Planned|ContentManager interception — backlog|
 |Mod metadata (`mod.json`)|🔜 Planned|Description, load order, dependencies|
 |Public mod API docs|🔜 Planned|Developer documentation and examples|
 |Mod configuration UI|🔜 Planned|Per-mod settings files and manager integration|
@@ -39,7 +39,7 @@
 
 The next version will focus on improving the manager experience and installation model before continuing with the remaining gameplay patches from the original project.
 
-- **Electron to Avalonia transition** → replace the Electron-based manager interface with a native Avalonia application for a shared cross-platform C#/.NET UI
+- **Electron to Avalonia transition** → backlog: replace the Electron-based manager interface with a native Avalonia application for a shared cross-platform C#/.NET UI
 - **Discord Rich Presence** → add Discord Rich Presence integration for the active game session
 - **Custom application icon & Desktop shortcut** → provide a custom Asher application icon and create a Desktop shortcut during installation
 - **Multiple game installations** → support multiple installations of the same game on a single device, such as having both the Steam and GOG versions installed
@@ -62,8 +62,8 @@ The next version will focus on improving the manager experience and installation
 |Inicialização do runtime|✅ Feito|Logs, ciclo de vida e pastas funcionando|
 |Bootstrap do Harmony|✅ Feito|Patching em runtime confirmado e funcionando|
 |SDK de mods|✅ Feito|Interfaces limpas para autores de mods|
-|Patches padrão|✅ Feito|5 módulos de patch integrados (ver [🎯 Project Overview](https://chatgpt.com/g/g-p-693349c679288191939e9043a41b8205-asher-project/c/%F0%9F%8E%AF%20Project%20Overview))|
-|UI Electron do gerenciador|⏸️ Adiado|Será substituída pela interface Avalonia|
+|Patches padrão|✅ Feito|5 módulos de patch integrados (ver [[Asher/🎯 Project Overview\|🎯 Project Overview]])|
+|UI Electron do gerenciador|✅ Feito|UI atual do gerenciador (HTML/CSS/JS + `Asher.Host`)|
 |Host JSONL|✅ Feito|Serviço headless para instalação, mods e settings|
 |Patch Manager|✅ Feito|Ativa/desativa mods movendo arquivos|
 |Logs na pasta do jogo|✅ Feito|`runtime_*`, `manager_*`, `launcher_fatal_*`|
@@ -72,11 +72,11 @@ The next version will focus on improving the manager experience and installation
 |Helper de desinstalação de emergência|✅ Feito|`Uninstall-Asher.cmd` ao lado do `DustAET.exe`|
 |Remoção Safe vs Total|✅ Feito|Uninstall in-app vs script de emergência (Windows)|
 |Updates via GitHub in-app|✅ Feito|Builds empacotadas aplicam zips de release (somente Windows)|
-|UI Avalonia do gerenciador|🔨 Em andamento|Interface multiplataforma substituindo o Electron|
+|UI Avalonia do gerenciador|⏸️ Backlog|Não implementada; o Electron segue como UI do gerenciador|
 |Discord Rich Presence|🔨 Em andamento|Integração com Discord Rich Presence|
 |Ícone personalizado + atalho na área de trabalho|🔨 Em andamento|Ícone próprio e criação de atalho na área de trabalho|
 |Múltiplas instalações do jogo|🔨 Em andamento|Suporte a múltiplas instalações do mesmo jogo, como Steam e GOG|
-|Content patcher|🔜 Planejado|Interceptação do ContentManager — ainda sem backend|
+|Content patcher|🔜 Planejado|Interceptação do ContentManager — backlog|
 |Metadados de mod (`mod.json`)|🔜 Planejado|Descrição, ordem de carregamento e dependências|
 |UI de configuração de mods|🔜 Planejado|Arquivos de configuração por mod e integração no gerenciador|
 |Documentação pública da API de mods|🔜 Planejado|Documentação e exemplos para desenvolvedores|
@@ -87,7 +87,7 @@ The next version will focus on improving the manager experience and installation
 
 A próxima versão será focada em melhorias na experiência do gerenciador e no modelo de instalação antes de dar sequência aos patches de gameplay restantes do projeto original.
 
-- **Transição de Electron para Avalonia** → substituir a interface baseada em Electron por uma aplicação nativa em Avalonia, compartilhando a stack multiplataforma C#/.NET
+- **Transição de Electron para Avalonia** → backlog: substituir a interface baseada em Electron por uma aplicação nativa em Avalonia, compartilhando a stack multiplataforma C#/.NET
 - **Discord Rich Presence** → adicionar integração com o Discord Rich Presence para a sessão de jogo ativa
 - **Ícone personalizado da aplicação + atalho na área de trabalho** → fornecer um ícone próprio para o Asher e criar um atalho na área de trabalho durante a instalação
 - **Múltiplas instalações do jogo** → permitir diferentes instalações do mesmo jogo em um único dispositivo, como possuir simultaneamente as versões de Steam e GOG
